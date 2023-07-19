@@ -1,0 +1,109 @@
+[0.000000] (-) TimerEvent: {}
+[0.001043] (-) JobUnselected: {'identifier': 'my_python_package'}
+[0.001109] (-) JobUnselected: {'identifier': 'my_robot_interfaces'}
+[0.001157] (my_cpp_package) JobQueued: {'identifier': 'my_cpp_package', 'dependencies': OrderedDict([('my_robot_interfaces', '/home/c1ph3r/ros2_ws/install/my_robot_interfaces')])}
+[0.001210] (my_cpp_package) JobStarted: {'identifier': 'my_cpp_package'}
+[0.017237] (my_cpp_package) JobProgress: {'identifier': 'my_cpp_package', 'progress': 'cmake'}
+[0.017890] (my_cpp_package) JobProgress: {'identifier': 'my_cpp_package', 'progress': 'build'}
+[0.018752] (my_cpp_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/c1ph3r/ros2_ws/build/my_cpp_package', '--', '-j8', '-l8'], 'cwd': '/home/c1ph3r/ros2_ws/build/my_cpp_package', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'c1ph3r'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/c1ph3r/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/c1ph3r'), ('OLDPWD', '/home/c1ph3r'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1490'), ('SYSTEMD_EXEC_PID', '1706'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4834'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/c1ph3r/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'c1ph3r'), ('JOURNAL_STREAM', '8:32893'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'c1ph3r'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/c1ph3r/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/c1ph3r:@/tmp/.ICE-unix/1682,unix/c1ph3r:/tmp/.ICE-unix/1682'), ('INVOCATION_ID', '4f8f1f6e45924f69a7ae48e25871170a'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TP2371'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/c1ph3r/ros2_ws/install/my_python_package:/home/c1ph3r/ros2_ws/install/my_cpp_package:/home/c1ph3r/ros2_ws/install/my_robot_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:79d1ee6d-44ec-4cc7-af75-7e4e4553eb12'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/c1ph3r/ros2_ws/build/my_cpp_package'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/c1ph3r/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/c1ph3r/ros2_ws/build/my_python_package:/home/c1ph3r/ros2_ws/install/my_python_package/lib/python3.10/site-packages:/home/c1ph3r/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/c1ph3r/ros2_ws/install/my_robot_interfaces:/home/c1ph3r/ros2_ws/install/my_cpp_package:/home/c1ph3r/ros2_ws/install/my_python_package:/opt/ros/humble')]), 'shell': False}
+[0.081349] (my_cpp_package) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/robot_news_station.dir/src/robot_news_station.cpp.o\x1b[0m\n'}
+[0.081733] (my_cpp_package) StdoutLine: {'line': b'[ 19%] Built target basic_pub\n'}
+[0.082375] (my_cpp_package) StdoutLine: {'line': b'[ 19%] Built target cpp_node\n'}
+[0.082556] (my_cpp_package) StdoutLine: {'line': b'[ 34%] Built target add_two_ints_client_oops\n'}
+[0.082694] (my_cpp_package) StdoutLine: {'line': b'[ 38%] Built target add_two_ints_server\n'}
+[0.082814] (my_cpp_package) StdoutLine: {'line': b'[ 42%] Built target smartphone\n'}
+[0.084303] (my_cpp_package) StdoutLine: {'line': b'[ 50%] Built target add_two_ints_client\n'}
+[0.087375] (my_cpp_package) StdoutLine: {'line': b'[ 57%] Built target hardware_status_publisher\n'}
+[0.095588] (my_cpp_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target number_publisher\x1b[0m\n'}
+[0.098966] (-) TimerEvent: {}
+[0.108659] (my_cpp_package) StdoutLine: {'line': b'[ 65%] Built target battery\n'}
+[0.110158] (my_cpp_package) StdoutLine: {'line': b'[ 73%] Built target basic_sub\n'}
+[0.110439] (my_cpp_package) StdoutLine: {'line': b'[ 80%] Built target LED_panel\n'}
+[0.112336] (my_cpp_package) StdoutLine: {'line': b'[ 88%] Built target number_counter\n'}
+[0.116282] (my_cpp_package) StdoutLine: {'line': b'[ 96%] Built target number_publisher\n'}
+[0.199077] (-) TimerEvent: {}
+[0.299427] (-) TimerEvent: {}
+[0.399803] (-) TimerEvent: {}
+[0.500174] (-) TimerEvent: {}
+[0.600580] (-) TimerEvent: {}
+[0.701015] (-) TimerEvent: {}
+[0.801450] (-) TimerEvent: {}
+[0.901872] (-) TimerEvent: {}
+[1.002271] (-) TimerEvent: {}
+[1.102704] (-) TimerEvent: {}
+[1.203121] (-) TimerEvent: {}
+[1.303548] (-) TimerEvent: {}
+[1.403948] (-) TimerEvent: {}
+[1.504367] (-) TimerEvent: {}
+[1.604792] (-) TimerEvent: {}
+[1.705218] (-) TimerEvent: {}
+[1.805641] (-) TimerEvent: {}
+[1.906080] (-) TimerEvent: {}
+[2.006500] (-) TimerEvent: {}
+[2.106920] (-) TimerEvent: {}
+[2.207347] (-) TimerEvent: {}
+[2.307774] (-) TimerEvent: {}
+[2.408186] (-) TimerEvent: {}
+[2.508604] (-) TimerEvent: {}
+[2.609020] (-) TimerEvent: {}
+[2.709445] (-) TimerEvent: {}
+[2.809872] (-) TimerEvent: {}
+[2.910256] (-) TimerEvent: {}
+[3.010678] (-) TimerEvent: {}
+[3.111102] (-) TimerEvent: {}
+[3.211522] (-) TimerEvent: {}
+[3.311940] (-) TimerEvent: {}
+[3.412563] (-) TimerEvent: {}
+[3.513174] (-) TimerEvent: {}
+[3.613800] (-) TimerEvent: {}
+[3.714227] (-) TimerEvent: {}
+[3.814629] (-) TimerEvent: {}
+[3.915103] (-) TimerEvent: {}
+[4.015714] (-) TimerEvent: {}
+[4.116130] (-) TimerEvent: {}
+[4.216537] (-) TimerEvent: {}
+[4.316912] (-) TimerEvent: {}
+[4.417269] (-) TimerEvent: {}
+[4.453344] (my_cpp_package) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable robot_news_station\x1b[0m\n'}
+[4.517375] (-) TimerEvent: {}
+[4.617715] (-) TimerEvent: {}
+[4.703845] (my_cpp_package) StdoutLine: {'line': b'[100%] Built target robot_news_station\n'}
+[4.717816] (-) TimerEvent: {}
+[4.726053] (my_cpp_package) CommandEnded: {'returncode': 0}
+[4.801057] (my_cpp_package) JobProgress: {'identifier': 'my_cpp_package', 'progress': 'install'}
+[4.817618] (my_cpp_package) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/c1ph3r/ros2_ws/build/my_cpp_package'], 'cwd': '/home/c1ph3r/ros2_ws/build/my_cpp_package', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'c1ph3r'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/c1ph3r/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/c1ph3r'), ('OLDPWD', '/home/c1ph3r'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1490'), ('SYSTEMD_EXEC_PID', '1706'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4834'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/c1ph3r/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'c1ph3r'), ('JOURNAL_STREAM', '8:32893'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'c1ph3r'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/c1ph3r/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/c1ph3r:@/tmp/.ICE-unix/1682,unix/c1ph3r:/tmp/.ICE-unix/1682'), ('INVOCATION_ID', '4f8f1f6e45924f69a7ae48e25871170a'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TP2371'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/c1ph3r/ros2_ws/install/my_python_package:/home/c1ph3r/ros2_ws/install/my_cpp_package:/home/c1ph3r/ros2_ws/install/my_robot_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:79d1ee6d-44ec-4cc7-af75-7e4e4553eb12'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/c1ph3r/ros2_ws/build/my_cpp_package'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/c1ph3r/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/c1ph3r/ros2_ws/build/my_python_package:/home/c1ph3r/ros2_ws/install/my_python_package/lib/python3.10/site-packages:/home/c1ph3r/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/c1ph3r/ros2_ws/install/my_robot_interfaces:/home/c1ph3r/ros2_ws/install/my_cpp_package:/home/c1ph3r/ros2_ws/install/my_python_package:/opt/ros/humble')]), 'shell': False}
+[4.818471] (-) TimerEvent: {}
+[4.833746] (my_cpp_package) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.834978] (my_cpp_package) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[4.835890] (my_cpp_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/c1ph3r/ros2_ws/install/my_cpp_package/lib/my_cpp_package/cpp_node\n'}
+[4.836318] (my_cpp_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/c1ph3r/ros2_ws/install/my_cpp_package/lib/my_cpp_package/robot_news_station\n'}
+[4.836721] (my_cpp_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/c1ph3r/ros2_ws/install/my_cpp_package/lib/my_cpp_package/smartphone\n'}
+[4.837120] (my_cpp_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/c1ph3r/ros2_ws/install/my_cpp_package/lib/my_cpp_package/add_two_ints_server\n'}
+[4.837536] (my_cpp_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/c1ph3r/ros2_ws/install/my_cpp_package/lib/my_cpp_package/add_two_ints_client\n'}
+[4.838140] (my_cpp_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/c1ph3r/ros2_ws/install/my_cpp_package/lib/my_cpp_package/add_two_ints_client_oops\n'}
+[4.838526] (my_cpp_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/c1ph3r/ros2_ws/install/my_cpp_package/lib/my_cpp_package/hardware_status_publisher\n'}
+[4.838916] (my_cpp_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/c1ph3r/ros2_ws/install/my_cpp_package/lib/my_cpp_package/basic_pub\n'}
+[4.839304] (my_cpp_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/c1ph3r/ros2_ws/install/my_cpp_package/lib/my_cpp_package/basic_sub\n'}
+[4.839689] (my_cpp_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/c1ph3r/ros2_ws/install/my_cpp_package/lib/my_cpp_package/LED_panel\n'}
+[4.840076] (my_cpp_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/c1ph3r/ros2_ws/install/my_cpp_package/lib/my_cpp_package/battery\n'}
+[4.840462] (my_cpp_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/c1ph3r/ros2_ws/install/my_cpp_package/lib/my_cpp_package/number_counter\n'}
+[4.840850] (my_cpp_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/c1ph3r/ros2_ws/install/my_cpp_package/lib/my_cpp_package/number_publisher\n'}
+[4.841346] (my_cpp_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/c1ph3r/ros2_ws/install/my_cpp_package/share/ament_index/resource_index/package_run_dependencies/my_cpp_package\n'}
+[4.841822] (my_cpp_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/c1ph3r/ros2_ws/install/my_cpp_package/share/ament_index/resource_index/parent_prefix_path/my_cpp_package\n'}
+[4.842251] (my_cpp_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/c1ph3r/ros2_ws/install/my_cpp_package/share/my_cpp_package/environment/ament_prefix_path.sh\n'}
+[4.842658] (my_cpp_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/c1ph3r/ros2_ws/install/my_cpp_package/share/my_cpp_package/environment/ament_prefix_path.dsv\n'}
+[4.843074] (my_cpp_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/c1ph3r/ros2_ws/install/my_cpp_package/share/my_cpp_package/environment/path.sh\n'}
+[4.843475] (my_cpp_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/c1ph3r/ros2_ws/install/my_cpp_package/share/my_cpp_package/environment/path.dsv\n'}
+[4.843874] (my_cpp_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/c1ph3r/ros2_ws/install/my_cpp_package/share/my_cpp_package/local_setup.bash\n'}
+[4.844264] (my_cpp_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/c1ph3r/ros2_ws/install/my_cpp_package/share/my_cpp_package/local_setup.sh\n'}
+[4.844664] (my_cpp_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/c1ph3r/ros2_ws/install/my_cpp_package/share/my_cpp_package/local_setup.zsh\n'}
+[4.845074] (my_cpp_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/c1ph3r/ros2_ws/install/my_cpp_package/share/my_cpp_package/local_setup.dsv\n'}
+[4.845424] (my_cpp_package) StdoutLine: {'line': b'-- Symlinking: /home/c1ph3r/ros2_ws/install/my_cpp_package/share/my_cpp_package/package.dsv\n'}
+[4.854829] (my_cpp_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/c1ph3r/ros2_ws/install/my_cpp_package/share/ament_index/resource_index/packages/my_cpp_package\n'}
+[4.855099] (my_cpp_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/c1ph3r/ros2_ws/install/my_cpp_package/share/my_cpp_package/cmake/my_cpp_packageConfig.cmake\n'}
+[4.855336] (my_cpp_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/c1ph3r/ros2_ws/install/my_cpp_package/share/my_cpp_package/cmake/my_cpp_packageConfig-version.cmake\n'}
+[4.855662] (my_cpp_package) StdoutLine: {'line': b'-- Up-to-date symlink: /home/c1ph3r/ros2_ws/install/my_cpp_package/share/my_cpp_package/package.xml\n'}
+[4.858747] (my_cpp_package) CommandEnded: {'returncode': 0}
+[4.918605] (-) TimerEvent: {}
+[5.014422] (my_cpp_package) JobEnded: {'identifier': 'my_cpp_package', 'rc': 0}
+[5.015615] (-) EventReactorShutdown: {}

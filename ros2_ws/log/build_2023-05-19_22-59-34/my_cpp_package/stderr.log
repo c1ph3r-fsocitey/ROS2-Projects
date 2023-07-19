@@ -1,0 +1,22 @@
+[01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/add_two_ints_client_oops.cpp:[m[K In member function ‘[01m[Kvoid AddTwoIntsClientNode::callAddTwoIntsService(int, int)[m[K’:
+[01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/add_two_ints_client_oops.cpp:14:13:[m[K [01;31m[Kerror: [m[Kdeclaration of ‘[01m[Kint a[m[K’ shadows a parameter
+   14 |         int [01;31m[Ka[m[K, b;
+      |             [01;31m[K^[m[K
+[01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/add_two_ints_client_oops.cpp:12:36:[m[K [01;36m[Knote: [m[K‘[01m[Kint a[m[K’ previously declared here
+   12 |     void callAddTwoIntsService([01;36m[Kint a[m[K, int b)
+      |                                [01;36m[K~~~~^[m[K
+[01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/add_two_ints_client_oops.cpp:14:16:[m[K [01;31m[Kerror: [m[Kdeclaration of ‘[01m[Kint b[m[K’ shadows a parameter
+   14 |         int a, [01;31m[Kb[m[K;
+      |                [01;31m[K^[m[K
+[01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/add_two_ints_client_oops.cpp:12:43:[m[K [01;36m[Knote: [m[K‘[01m[Kint b[m[K’ previously declared here
+   12 |     void callAddTwoIntsService(int a, [01;36m[Kint b[m[K)
+      |                                       [01;36m[K~~~~^[m[K
+[01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/add_two_ints_client_oops.cpp:12:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ka[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   12 |     void callAddTwoIntsService([01;35m[Kint a[m[K, int b)
+      |                                [01;35m[K~~~~^[m[K
+[01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/add_two_ints_client_oops.cpp:12:43:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kb[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   12 |     void callAddTwoIntsService(int a, [01;35m[Kint b[m[K)
+      |                                       [01;35m[K~~~~^[m[K
+gmake[2]: *** [CMakeFiles/add_two_ints_client_oops.dir/build.make:76: CMakeFiles/add_two_ints_client_oops.dir/src/add_two_ints_client_oops.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/add_two_ints_client_oops.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

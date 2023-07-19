@@ -1,0 +1,23 @@
+[0.680s] Invoking command in '/home/c1ph3r/ros2_ws/build/my_python_package': PYTHONPATH=/home/c1ph3r/ros2_ws/build/my_python_package/prefix_override:/home/c1ph3r/ros2_ws/install/my_python_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/c1ph3r/ros2_ws/build/my_python_package/build --no-deps install_data
+[0.987s] running develop
+[1.165s] running egg_info
+[1.165s] writing my_python_package.egg-info/PKG-INFO
+[1.165s] writing dependency_links to my_python_package.egg-info/dependency_links.txt
+[1.166s] writing entry points to my_python_package.egg-info/entry_points.txt
+[1.166s] writing requirements to my_python_package.egg-info/requires.txt
+[1.166s] writing top-level names to my_python_package.egg-info/top_level.txt
+[1.168s] reading manifest file 'my_python_package.egg-info/SOURCES.txt'
+[1.169s] writing manifest file 'my_python_package.egg-info/SOURCES.txt'
+[1.170s] running build_ext
+[1.170s] Creating /home/c1ph3r/ros2_ws/install/my_python_package/lib/python3.10/site-packages/my-python-package.egg-link (link to .)
+[1.171s] Installing add_two_ints_server script to /home/c1ph3r/ros2_ws/install/my_python_package/lib/my_python_package
+[1.171s] Installing number_counter script to /home/c1ph3r/ros2_ws/install/my_python_package/lib/my_python_package
+[1.172s] Installing number_publisher script to /home/c1ph3r/ros2_ws/install/my_python_package/lib/my_python_package
+[1.172s] Installing py_node script to /home/c1ph3r/ros2_ws/install/my_python_package/lib/my_python_package
+[1.172s] Installing py_node_oop script to /home/c1ph3r/ros2_ws/install/my_python_package/lib/my_python_package
+[1.172s] Installing robot_news_station script to /home/c1ph3r/ros2_ws/install/my_python_package/lib/my_python_package
+[1.172s] Installing smartphone script to /home/c1ph3r/ros2_ws/install/my_python_package/lib/my_python_package
+[1.172s] 
+[1.173s] Installed /home/c1ph3r/ros2_ws/build/my_python_package
+[1.174s] running install_data
+[1.223s] Invoked command in '/home/c1ph3r/ros2_ws/build/my_python_package' returned '0': PYTHONPATH=/home/c1ph3r/ros2_ws/build/my_python_package/prefix_override:/home/c1ph3r/ros2_ws/install/my_python_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/c1ph3r/ros2_ws/build/my_python_package/build --no-deps install_data

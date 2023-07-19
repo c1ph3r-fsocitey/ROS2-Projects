@@ -1,0 +1,10 @@
+[01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/my_first_node.cpp:1:5:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K#[m[K’ in program
+    1 | int [01;31m[K#[m[Kinclude <memory>
+      |     [01;31m[K^[m[K
+[01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/my_first_node.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+    3 | #include [01;31m[K"rclcpp/rclcpp.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/cpp_node.dir/build.make:76: CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/cpp_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

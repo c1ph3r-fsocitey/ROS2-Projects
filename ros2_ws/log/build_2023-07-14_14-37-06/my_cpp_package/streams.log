@@ -1,0 +1,19 @@
+[0.022s] Invoking command in '/home/c1ph3r/ros2_ws/build/my_cpp_package': CMAKE_PREFIX_PATH=/home/c1ph3r/ros2_ws/install/my_robot_interfaces:/home/c1ph3r/ros2_ws/install/my_cpp_package:/home/c1ph3r/ros2_ws/install/my_python_package:/opt/ros/humble /usr/bin/cmake --build /home/c1ph3r/ros2_ws/build/my_cpp_package -- -j8 -l8
+[0.101s] [ 25%] Built target add_two_ints_client
+[0.102s] [ 25%] Built target add_two_ints_server
+[0.102s] [ 30%] Built target cpp_node
+[0.103s] [ 40%] Built target robot_news_station
+[0.104s] [ 50%] Built target add_two_ints_client_oops
+[0.106s] [ 60%] Built target smartphone
+[0.111s] [ 70%] Built target hardware_status_publisher
+[0.113s] [ 80%] Built target basic_pub
+[0.125s] [ 85%] [32mBuilding CXX object CMakeFiles/LED_panel.dir/src/LED_panel.cpp.o[0m
+[0.129s] [ 95%] Built target basic_sub
+[0.328s] [01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/LED_panel.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kmy_robot_interfaces/msg/LEDStatusArray.hpp: No such file or directory
+[0.329s]     2 | #include [01;31m[K"my_robot_interfaces/msg/LEDStatusArray.hpp"[m[K
+[0.329s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.329s] compilation terminated.
+[0.334s] gmake[2]: *** [CMakeFiles/LED_panel.dir/build.make:76: CMakeFiles/LED_panel.dir/src/LED_panel.cpp.o] Error 1
+[0.334s] gmake[1]: *** [CMakeFiles/Makefile2:389: CMakeFiles/LED_panel.dir/all] Error 2
+[0.334s] gmake: *** [Makefile:146: all] Error 2
+[0.371s] Invoked command in '/home/c1ph3r/ros2_ws/build/my_cpp_package' returned '2': CMAKE_PREFIX_PATH=/home/c1ph3r/ros2_ws/install/my_robot_interfaces:/home/c1ph3r/ros2_ws/install/my_cpp_package:/home/c1ph3r/ros2_ws/install/my_python_package:/opt/ros/humble /usr/bin/cmake --build /home/c1ph3r/ros2_ws/build/my_cpp_package -- -j8 -l8

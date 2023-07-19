@@ -1,0 +1,57 @@
+[0.025s] Invoking command in '/home/c1ph3r/ros2_ws/build/my_cpp_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/c1ph3r/ros2_ws/install/my_python_package:/opt/ros/humble /usr/bin/cmake /home/c1ph3r/ros2_ws/src/my_cpp_package -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/c1ph3r/ros2_ws/install/my_cpp_package
+[0.051s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.236s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.259s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[0.311s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.315s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.327s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.346s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.370s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.464s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.468s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.642s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.870s] -- Found rclcpp_components: 16.0.4 (/opt/ros/humble/share/rclcpp_components/cmake)
+[0.958s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[1.278s] -- Configuring done
+[1.317s] -- Generating done
+[1.319s] -- Build files have been written to: /home/c1ph3r/ros2_ws/build/my_cpp_package
+[1.327s] Invoked command in '/home/c1ph3r/ros2_ws/build/my_cpp_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/c1ph3r/ros2_ws/install/my_python_package:/opt/ros/humble /usr/bin/cmake /home/c1ph3r/ros2_ws/src/my_cpp_package -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/c1ph3r/ros2_ws/install/my_cpp_package
+[1.330s] Invoking command in '/home/c1ph3r/ros2_ws/build/my_cpp_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/c1ph3r/ros2_ws/install/my_python_package:/opt/ros/humble /usr/bin/cmake --build /home/c1ph3r/ros2_ws/build/my_cpp_package -- -j8 -l8
+[1.373s] [35m[1mConsolidate compiler generated dependencies of target add_two_ints_server[0m
+[1.373s] [35m[1mConsolidate compiler generated dependencies of target smartphone[0m
+[1.373s] [35m[1mConsolidate compiler generated dependencies of target robot_news_station[0m
+[1.373s] [35m[1mConsolidate compiler generated dependencies of target cpp_node[0m
+[1.375s] [35m[1mConsolidate compiler generated dependencies of target add_two_ints_client_oops[0m
+[1.383s] [35m[1mConsolidate compiler generated dependencies of target add_two_ints_client[0m
+[1.394s] [ 16%] Built target smartphone
+[1.395s] [ 50%] Built target add_two_ints_server
+[1.396s] [ 50%] Built target robot_news_station
+[1.398s] [ 83%] Built target cpp_node
+[1.398s] [ 83%] Built target add_two_ints_client_oops
+[1.404s] [100%] Built target add_two_ints_client
+[1.414s] Invoked command in '/home/c1ph3r/ros2_ws/build/my_cpp_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/c1ph3r/ros2_ws/install/my_python_package:/opt/ros/humble /usr/bin/cmake --build /home/c1ph3r/ros2_ws/build/my_cpp_package -- -j8 -l8
+[1.454s] Invoking command in '/home/c1ph3r/ros2_ws/build/my_cpp_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/c1ph3r/ros2_ws/install/my_python_package:/opt/ros/humble /usr/bin/cmake --install /home/c1ph3r/ros2_ws/build/my_cpp_package
+[1.460s] -- Install configuration: ""
+[1.460s] -- Execute custom install script
+[1.461s] -- Up-to-date symlink: /home/c1ph3r/ros2_ws/install/my_cpp_package/lib/my_cpp_package/cpp_node
+[1.461s] -- Up-to-date symlink: /home/c1ph3r/ros2_ws/install/my_cpp_package/lib/my_cpp_package/robot_news_station
+[1.461s] -- Up-to-date symlink: /home/c1ph3r/ros2_ws/install/my_cpp_package/lib/my_cpp_package/smartphone
+[1.461s] -- Up-to-date symlink: /home/c1ph3r/ros2_ws/install/my_cpp_package/lib/my_cpp_package/add_two_ints_server
+[1.461s] -- Up-to-date symlink: /home/c1ph3r/ros2_ws/install/my_cpp_package/lib/my_cpp_package/add_two_ints_client
+[1.461s] -- Up-to-date symlink: /home/c1ph3r/ros2_ws/install/my_cpp_package/lib/my_cpp_package/add_two_ints_client_oops
+[1.462s] -- Up-to-date symlink: /home/c1ph3r/ros2_ws/install/my_cpp_package/share/ament_index/resource_index/package_run_dependencies/my_cpp_package
+[1.462s] -- Up-to-date symlink: /home/c1ph3r/ros2_ws/install/my_cpp_package/share/ament_index/resource_index/parent_prefix_path/my_cpp_package
+[1.462s] -- Up-to-date symlink: /home/c1ph3r/ros2_ws/install/my_cpp_package/share/my_cpp_package/environment/ament_prefix_path.sh
+[1.462s] -- Up-to-date symlink: /home/c1ph3r/ros2_ws/install/my_cpp_package/share/my_cpp_package/environment/ament_prefix_path.dsv
+[1.463s] -- Up-to-date symlink: /home/c1ph3r/ros2_ws/install/my_cpp_package/share/my_cpp_package/environment/path.sh
+[1.463s] -- Up-to-date symlink: /home/c1ph3r/ros2_ws/install/my_cpp_package/share/my_cpp_package/environment/path.dsv
+[1.463s] -- Up-to-date symlink: /home/c1ph3r/ros2_ws/install/my_cpp_package/share/my_cpp_package/local_setup.bash
+[1.463s] -- Up-to-date symlink: /home/c1ph3r/ros2_ws/install/my_cpp_package/share/my_cpp_package/local_setup.sh
+[1.463s] -- Up-to-date symlink: /home/c1ph3r/ros2_ws/install/my_cpp_package/share/my_cpp_package/local_setup.zsh
+[1.464s] -- Up-to-date symlink: /home/c1ph3r/ros2_ws/install/my_cpp_package/share/my_cpp_package/local_setup.dsv
+[1.464s] -- Symlinking: /home/c1ph3r/ros2_ws/install/my_cpp_package/share/my_cpp_package/package.dsv
+[1.472s] -- Up-to-date symlink: /home/c1ph3r/ros2_ws/install/my_cpp_package/share/ament_index/resource_index/packages/my_cpp_package
+[1.472s] -- Up-to-date symlink: /home/c1ph3r/ros2_ws/install/my_cpp_package/share/my_cpp_package/cmake/my_cpp_packageConfig.cmake
+[1.473s] -- Up-to-date symlink: /home/c1ph3r/ros2_ws/install/my_cpp_package/share/my_cpp_package/cmake/my_cpp_packageConfig-version.cmake
+[1.473s] -- Up-to-date symlink: /home/c1ph3r/ros2_ws/install/my_cpp_package/share/my_cpp_package/package.xml
+[1.478s] Invoked command in '/home/c1ph3r/ros2_ws/build/my_cpp_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/c1ph3r/ros2_ws/install/my_python_package:/opt/ros/humble /usr/bin/cmake --install /home/c1ph3r/ros2_ws/build/my_cpp_package

@@ -1,0 +1,12 @@
+[01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/add_two_ints_client_oops.cpp:[m[K In constructor ‘[01m[KAddTwoIntsClientNode::AddTwoIntsClientNode()[m[K’:
+[01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/add_two_ints_client_oops.cpp:19:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kthread1_[m[K’ was not declared in this scope; did you mean ‘[01m[Kpthread_t[m[K’?
+   19 |         [01;31m[Kthread1_[m[K = std::thread(std::bind(&AddTwoIntsClientNode::callAddTwoIntsService, this, a, b));
+      |         [01;31m[K^~~~~~~~[m[K
+      |         [32m[Kpthread_t[m[K
+[01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/add_two_ints_client_oops.cpp:[m[K In member function ‘[01m[Kvoid AddTwoIntsClientNode::callAddTwoIntsService(int, int)[m[K’:
+[01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/add_two_ints_client_oops.cpp:48:5:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kprivate[m[K’
+   48 |     [01;31m[Kprivate[m[K:
+      |     [01;31m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/add_two_ints_client_oops.dir/build.make:76: CMakeFiles/add_two_ints_client_oops.dir/src/add_two_ints_client_oops.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/add_two_ints_client_oops.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

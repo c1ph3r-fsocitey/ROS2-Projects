@@ -1,0 +1,8 @@
+[01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/basic_sub.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kexample_interfaces/msg/String.hpp: No such file or directory
+    2 | #include [01;31m[K"example_interfaces/msg/String.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/basic_sub.dir/build.make:76: CMakeFiles/basic_sub.dir/src/basic_sub.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:361: CMakeFiles/basic_sub.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

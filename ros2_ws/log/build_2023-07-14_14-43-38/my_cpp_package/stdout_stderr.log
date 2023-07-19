@@ -1,0 +1,50 @@
+[ 25%] Built target smartphone
+[ 25%] Built target cpp_node
+[ 30%] Built target robot_news_station
+[ 40%] Built target hardware_status_publisher
+[ 50%] Built target add_two_ints_client_oops
+[ 60%] Built target basic_pub
+[ 70%] Built target add_two_ints_server
+[ 80%] Built target add_two_ints_client
+[ 85%] [32mBuilding CXX object CMakeFiles/LED_panel.dir/src/LED_panel.cpp.o[0m
+[ 95%] Built target basic_sub
+[01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/LED_panel.cpp:55:49:[m[K [01;31m[Kerror: [m[K‘[01m[KLedStateArray[m[K’ is not a member of ‘[01m[Kmy_robot_interfaces::msg[m[K’; did you mean ‘[01m[KLEDStatusArray[m[K’?
+   55 |     rclcpp::Publisher<my_robot_interfaces::msg::[01;31m[KLedStateArray[m[K>::SharedPtr led_status_publisher_;
+      |                                                 [01;31m[K^~~~~~~~~~~~~[m[K
+      |                                                 [32m[KLEDStatusArray[m[K
+[01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/LED_panel.cpp:55:62:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   55 |     rclcpp::Publisher<my_robot_interfaces::msg::LedStateArray[01;31m[K>[m[K::SharedPtr led_status_publisher_;
+      |                                                              [01;31m[K^[m[K
+[01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/LED_panel.cpp:55:65:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   55 |     rclcpp::Publisher<my_robot_interfaces::msg::LedStateArray>::[01;31m[KSharedPtr[m[K led_status_publisher_;
+      |                                                                 [01;31m[K^~~~~~~~~[m[K
+      |                                                                          [32m[K;[m[K
+[01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/LED_panel.cpp:55:75:[m[K [01;31m[Kerror: [m[K‘[01m[Kled_status_publisher_[m[K’ does not name a type
+   55 |     rclcpp::Publisher<my_robot_interfaces::msg::LedStateArray>::SharedPtr [01;31m[Kled_status_publisher_[m[K;
+      |                                                                           [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/LED_panel.cpp:[m[K In constructor ‘[01m[KLedPanelNode::LedPanelNode()[m[K’:
+[01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/LED_panel.cpp:11:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kled_status_publisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Kled_states_timer_[m[K’?
+   11 |         [01;31m[Kled_status_publisher_[m[K =
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+      |         [32m[Kled_states_timer_[m[K
+[01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/LED_panel.cpp:13:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kled_status_timer_[m[K’ was not declared in this scope; did you mean ‘[01m[Kled_states_timer_[m[K’?
+   13 |         [01;31m[Kled_status_timer_[m[K =
+      |         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |         [32m[Kled_states_timer_[m[K
+[01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/LED_panel.cpp:[m[K In member function ‘[01m[Kvoid LedPanelNode::publishLedStates()[m[K’:
+[01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/LED_panel.cpp:26:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct my_robot_interfaces::msg::LEDStatusArray_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kled_states[m[K’; did you mean ‘[01m[Kled_status[m[K’?
+   26 |         msg.[01;31m[Kled_states[m[K = led_status;
+      |             [01;31m[K^~~~~~~~~~[m[K
+      |             [32m[Kled_status[m[K
+[01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/LED_panel.cpp:27:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kled_status_publisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Kled_states_timer_[m[K’?
+   27 |         [01;31m[Kled_status_publisher_[m[K->publish(msg);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+      |         [32m[Kled_states_timer_[m[K
+[01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/LED_panel.cpp:[m[K In member function ‘[01m[Kvoid LedPanelNode::callbackSetLed(my_robot_interfaces::srv::SetLED_Request_<std::allocator<void> >::SharedPtr, my_robot_interfaces::srv::SetLED_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/LED_panel.cpp:34:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct my_robot_interfaces::srv::SetLED_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct my_robot_interfaces::srv::SetLED_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kstate[m[K’; did you mean ‘[01m[Kstatus[m[K’?
+   34 |         int64_t state = request->[01;31m[Kstate[m[K;
+      |                                  [01;31m[K^~~~~[m[K
+      |                                  [32m[Kstatus[m[K
+gmake[2]: *** [CMakeFiles/LED_panel.dir/build.make:76: CMakeFiles/LED_panel.dir/src/LED_panel.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:389: CMakeFiles/LED_panel.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,24 @@
+[ 10%] Built target robot_news_station
+[ 20%] Built target add_two_ints_client_oops
+[ 40%] Built target cpp_node
+[ 50%] Built target add_two_ints_server
+[ 40%] Built target add_two_ints_client
+[ 60%] Built target smartphone
+[ 70%] Built target basic_pub
+[ 80%] Built target hardware_status_publisher
+[35m[1mConsolidate compiler generated dependencies of target LED_panel[0m
+[ 90%] Built target basic_sub
+[ 95%] [32mBuilding CXX object CMakeFiles/LED_panel.dir/src/LED_panel.cpp.o[0m
+[01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/LED_panel.cpp:[m[K In member function ‘[01m[Kvoid LedPanelNode::publishLedStates()[m[K’:
+[01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/LED_panel.cpp:25:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct my_robot_interfaces::msg::LEDStatusArray_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kled_states[m[K’; did you mean ‘[01m[Kled_status[m[K’?
+   25 |         msg.[01;31m[Kled_states[m[K = led_status;
+      |             [01;31m[K^~~~~~~~~~[m[K
+      |             [32m[Kled_status[m[K
+[01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/LED_panel.cpp:[m[K In member function ‘[01m[Kvoid LedPanelNode::callbackSetLed(my_robot_interfaces::srv::SetLED_Request_<std::allocator<void> >::SharedPtr, my_robot_interfaces::srv::SetLED_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/LED_panel.cpp:33:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct my_robot_interfaces::srv::SetLED_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct my_robot_interfaces::srv::SetLED_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kstate[m[K’; did you mean ‘[01m[Kstatus[m[K’?
+   33 |         int64_t state = request->[01;31m[Kstate[m[K;
+      |                                  [01;31m[K^~~~~[m[K
+      |                                  [32m[Kstatus[m[K
+gmake[2]: *** [CMakeFiles/LED_panel.dir/build.make:76: CMakeFiles/LED_panel.dir/src/LED_panel.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:389: CMakeFiles/LED_panel.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

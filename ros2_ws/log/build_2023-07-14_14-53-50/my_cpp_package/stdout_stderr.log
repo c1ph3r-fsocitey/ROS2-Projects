@@ -1,0 +1,83 @@
+-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_components: 16.0.4 (/opt/ros/humble/share/rclcpp_components/cmake)
+-- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+-- Found my_robot_interfaces: 0.0.0 (/home/c1ph3r/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/c1ph3r/ros2_ws/build/my_cpp_package
+[35m[1mConsolidate compiler generated dependencies of target cpp_node[0m
+[35m[1mConsolidate compiler generated dependencies of target add_two_ints_client_oops[0m
+[35m[1mConsolidate compiler generated dependencies of target robot_news_station[0m
+[35m[1mConsolidate compiler generated dependencies of target add_two_ints_client[0m
+[35m[1mConsolidate compiler generated dependencies of target basic_pub[0m
+[35m[1mConsolidate compiler generated dependencies of target smartphone[0m
+[35m[1mConsolidate compiler generated dependencies of target add_two_ints_server[0m
+[35m[1mConsolidate compiler generated dependencies of target hardware_status_publisher[0m
+[ 36%] Built target basic_pub
+[ 36%] Built target add_two_ints_client
+[ 36%] Built target add_two_ints_client_oops
+[ 36%] Built target robot_news_station
+[ 45%] Built target cpp_node
+[ 54%] Built target smartphone
+[ 63%] Built target hardware_status_publisher
+[ 72%] Built target add_two_ints_server
+[35m[1mConsolidate compiler generated dependencies of target LED_panel[0m
+[35m[1mConsolidate compiler generated dependencies of target basic_sub[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/battery.dir/src/battery.cpp.o[0m
+[ 86%] Built target LED_panel
+[ 95%] Built target basic_sub
+[01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/battery.cpp:[m[K In member function ‘[01m[Kvoid BatteryNode::callSetLedService(int, int)[m[K’:
+[01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/battery.cpp:24:69:[m[K [01;31m[Kerror: [m[K‘[01m[KSetLed[m[K’ is not a member of ‘[01m[Kmy_robot_interfaces::srv[m[K’; did you mean ‘[01m[KSetLED[m[K’?
+   24 |   auto client = this->create_client<my_robot_interfaces::srv::[01;31m[KSetLed[m[K>("set_led");
+      |                                                               [01;31m[K^~~~~~[m[K
+      |                                                               [32m[KSetLED[m[K
+[01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/battery.cpp:24:76:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KBatteryNode::create_client<<expression error> >(const char [8])[m[K’
+   24 | client = [01;31m[Kthis->create_client<my_robot_interfaces::srv::SetLed>("set_led")[m[K;
+      |          [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/battery.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:252:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ServiceT> typename rclcpp::Client<ServiceT>::SharedPtr rclcpp::Node::create_client(const string&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+  252 |   [01;36m[Kcreate_client[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:252:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/battery.cpp:24:76:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   24 | client = [01;31m[Kthis->create_client<my_robot_interfaces::srv::SetLed>("set_led")[m[K;
+      |          [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+
+[01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/battery.cpp:30:67:[m[K [01;31m[Kerror: [m[K‘[01m[KSetLed[m[K’ is not a member of ‘[01m[Kmy_robot_interfaces::srv[m[K’; did you mean ‘[01m[KSetLED[m[K’?
+   30 |     auto request = std::make_shared<my_robot_interfaces::srv::[01;31m[KSetLed[m[K::Request>();
+      |                                                               [01;31m[K^~~~~~[m[K
+      |                                                               [32m[KSetLED[m[K
+[01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/battery.cpp:30:29:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   30 |         auto request = std::[01;31m[Kmake_shared<my_robot_interfaces::srv::SetLed::Request>[m[K();
+      |                             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/battery.cpp:30:83:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+   30 |  request = [01;31m[Kstd::make_shared<my_robot_interfaces::srv::SetLed::Request>()[m[K;
+      |            [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+
+In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/battery.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+  875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/battery.cpp:30:83:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   30 |  request = [01;31m[Kstd::make_shared<my_robot_interfaces::srv::SetLed::Request>()[m[K;
+      |            [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+
+gmake[2]: *** [CMakeFiles/battery.dir/build.make:76: CMakeFiles/battery.dir/src/battery.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:417: CMakeFiles/battery.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

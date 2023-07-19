@@ -1,0 +1,90 @@
+[0.032s] Invoking command in '/home/c1ph3r/ros2_ws/build/my_cpp_package': CMAKE_PREFIX_PATH=/home/c1ph3r/ros2_ws/install/my_python_package:/opt/ros/humble /usr/bin/cmake /home/c1ph3r/ros2_ws/src/my_cpp_package -DCMAKE_INSTALL_PREFIX=/home/c1ph3r/ros2_ws/install/my_cpp_package
+[0.043s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.230s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.238s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[0.272s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.275s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.283s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.297s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.317s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.393s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.395s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.545s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.870s] -- Configuring done
+[0.882s] -- Generating done
+[0.884s] -- Build files have been written to: /home/c1ph3r/ros2_ws/build/my_cpp_package
+[0.894s] Invoked command in '/home/c1ph3r/ros2_ws/build/my_cpp_package' returned '0': CMAKE_PREFIX_PATH=/home/c1ph3r/ros2_ws/install/my_python_package:/opt/ros/humble /usr/bin/cmake /home/c1ph3r/ros2_ws/src/my_cpp_package -DCMAKE_INSTALL_PREFIX=/home/c1ph3r/ros2_ws/install/my_cpp_package
+[0.897s] Invoking command in '/home/c1ph3r/ros2_ws/build/my_cpp_package': CMAKE_PREFIX_PATH=/home/c1ph3r/ros2_ws/install/my_python_package:/opt/ros/humble /usr/bin/cmake --build /home/c1ph3r/ros2_ws/build/my_cpp_package -- -j8 -l8
+[0.952s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o[0m
+[3.568s] [01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/my_first_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[3.569s] [01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/my_first_node.cpp:5:29:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kauto[m[K’
+[3.569s]     5 |     rclcpp::init(argc, argv)
+[3.569s]       |                             [01;31m[K^[m[K
+[3.569s]       |                             [32m[K;[m[K
+[3.569s]     6 |     [32m[Kauto[m[K node = std::make_shared<rclcpp::Node>("cpp_test");
+[3.569s]       |     [32m[K~~~~[m[K                     
+[3.573s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.573s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.573s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.573s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.573s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.573s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.573s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.574s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.574s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.574s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.574s]                  from [01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/my_first_node.cpp:1[m[K:
+[3.574s] [01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/my_first_node.cpp:7:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_logger[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::get_logger[m[K’?
+[3.574s]     7 |     RCLCPP_INFO([01;31m[Kget_logger[m[K(), "Hemlo cpp node");
+[3.575s]       |                 [01;31m[K^~~~~~~~~~[m[K
+[3.575s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+[3.575s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.575s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.575s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.575s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.575s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.575s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.575s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.575s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.576s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.576s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.576s]                  from [01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/my_first_node.cpp:1[m[K:
+[3.576s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:106:17:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::get_logger[m[K’ declared here
+[3.576s]   106 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+[3.576s]       |                 [01;36m[K^~~~~~[m[K
+[3.576s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.576s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.576s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.576s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.577s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.577s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.577s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.577s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.577s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.577s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.577s]                  from [01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/my_first_node.cpp:1[m[K:
+[3.577s] [01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/my_first_node.cpp:7:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.577s]     7 |     [01;31m[KRCLCPP_INFO[m[K(get_logger(), "Hemlo cpp node");
+[3.577s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[3.578s] [01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/my_first_node.cpp:7:5:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[3.578s]     7 |     [01;31m[KRCLCPP_INFO[m[K(get_logger(), "Hemlo cpp node");
+[3.578s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[3.578s] [01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/my_first_node.cpp:7:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.578s]     7 |     [01;31m[KRCLCPP_INFO[m[K(get_logger(), "Hemlo cpp node");
+[3.578s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[3.578s] [01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/my_first_node.cpp:7:5:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[3.578s]     7 |     [01;31m[KRCLCPP_INFO[m[K(get_logger(), "Hemlo cpp node");
+[3.579s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[3.579s] [01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/my_first_node.cpp:7:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.579s]     7 |     [01;31m[KRCLCPP_INFO[m[K(get_logger(), "Hemlo cpp node");
+[3.579s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[3.579s] [01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/my_first_node.cpp:8:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krclpcp[m[K’ has not been declared
+[3.579s]     8 |     [01;31m[Krclpcp[m[K::spin(node);
+[3.580s]       |     [01;31m[K^~~~~~[m[K
+[3.580s] [01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/my_first_node.cpp:8:18:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope
+[3.580s]     8 |     rclpcp::spin([01;31m[Knode[m[K);
+[3.580s]       |                  [01;31m[K^~~~[m[K
+[4.091s] gmake[2]: *** [CMakeFiles/cpp_node.dir/build.make:76: CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o] Error 1
+[4.091s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/cpp_node.dir/all] Error 2
+[4.091s] gmake: *** [Makefile:146: all] Error 2
+[4.094s] Invoked command in '/home/c1ph3r/ros2_ws/build/my_cpp_package' returned '2': CMAKE_PREFIX_PATH=/home/c1ph3r/ros2_ws/install/my_python_package:/opt/ros/humble /usr/bin/cmake --build /home/c1ph3r/ros2_ws/build/my_cpp_package -- -j8 -l8

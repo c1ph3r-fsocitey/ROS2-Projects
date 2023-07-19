@@ -1,0 +1,81 @@
+[0.025s] Invoking command in '/home/c1ph3r/ros2_ws/build/my_cpp_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/c1ph3r/ros2_ws/install/my_python_package:/opt/ros/humble /usr/bin/cmake --build /home/c1ph3r/ros2_ws/build/my_cpp_package -- -j8 -l8
+[0.068s] [35m[1mConsolidate compiler generated dependencies of target add_two_ints_client[0m
+[0.078s] [ 20%] Built target smartphone
+[0.080s] [ 60%] Built target robot_news_station
+[0.080s] [ 60%] Built target add_two_ints_server
+[0.081s] [ 80%] Built target cpp_node
+[0.087s] [ 90%] [32mBuilding CXX object CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.o[0m
+[2.571s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.571s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.571s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.572s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.572s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.572s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.572s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.572s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.572s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.572s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.573s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.573s]                  from [01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/add_two_ints_client.cpp:2[m[K:
+[2.573s] [01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/add_two_ints_client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.573s] [01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/add_two_ints_client.cpp:31:41:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kexample_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >::_a_type[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.573s]    31 |         RCLCPP_INFO(node->get_logger(), [01;35m[K"%d + %d = %ld"[m[K, [32m[Krequest->a[m[K, request->b, future.get()->sum);
+[2.573s]       |                                         [01;35m[K^~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~[m[K
+[2.573s]       |                                                                   [32m[K|[m[K
+[2.574s]       |                                                                   [32m[Kexample_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >::_a_type {aka long int}[m[K
+[2.574s] [01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/add_two_ints_client.cpp:31:43:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[2.574s]    31 |         RCLCPP_INFO(node->get_logger(), "[01;36m[K%d[m[K + %d = %ld", request->a, request->b, future.get()->sum);
+[2.574s]       |                                          [01;36m[K~^[m[K
+[2.574s]       |                                           [01;36m[K|[m[K
+[2.574s]       |                                           [01;36m[Kint[m[K
+[2.575s]       |                                          [32m[K%ld[m[K
+[2.575s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.575s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.575s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.575s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.575s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.575s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.576s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.576s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.576s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.576s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.576s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.576s]                  from [01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/add_two_ints_client.cpp:2[m[K:
+[2.576s] [01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/add_two_ints_client.cpp:31:41:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 6 has type ‘[01m[Kexample_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >::_b_type[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.577s]    31 |         RCLCPP_INFO(node->get_logger(), [01;35m[K"%d + %d = %ld"[m[K, request->a, [32m[Krequest->b[m[K, future.get()->sum);
+[2.577s]       |                                         [01;35m[K^~~~~~~~~~~~~~~[m[K              [32m[K~~~~~~~~~~[m[K
+[2.577s]       |                                                                               [32m[K|[m[K
+[2.577s]       |                                                                               [32m[Kexample_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >::_b_type {aka long int}[m[K
+[2.577s] [01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/add_two_ints_client.cpp:31:48:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[2.577s]    31 |         RCLCPP_INFO(node->get_logger(), "%d + [01;36m[K%d[m[K = %ld", request->a, request->b, future.get()->sum);
+[2.578s]       |                                               [01;36m[K~^[m[K
+[2.578s]       |                                                [01;36m[K|[m[K
+[2.578s]       |                                                [01;36m[Kint[m[K
+[2.578s]       |                                               [32m[K%ld[m[K
+[3.765s] [100%] [32m[1mLinking CXX executable add_two_ints_client[0m
+[3.961s] [100%] Built target add_two_ints_client
+[3.973s] Invoked command in '/home/c1ph3r/ros2_ws/build/my_cpp_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/c1ph3r/ros2_ws/install/my_python_package:/opt/ros/humble /usr/bin/cmake --build /home/c1ph3r/ros2_ws/build/my_cpp_package -- -j8 -l8
+[4.021s] Invoking command in '/home/c1ph3r/ros2_ws/build/my_cpp_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/c1ph3r/ros2_ws/install/my_python_package:/opt/ros/humble /usr/bin/cmake --install /home/c1ph3r/ros2_ws/build/my_cpp_package
+[4.027s] -- Install configuration: ""
+[4.028s] -- Execute custom install script
+[4.028s] -- Up-to-date symlink: /home/c1ph3r/ros2_ws/install/my_cpp_package/lib/my_cpp_package/cpp_node
+[4.028s] -- Up-to-date symlink: /home/c1ph3r/ros2_ws/install/my_cpp_package/lib/my_cpp_package/robot_news_station
+[4.028s] -- Up-to-date symlink: /home/c1ph3r/ros2_ws/install/my_cpp_package/lib/my_cpp_package/smartphone
+[4.028s] -- Up-to-date symlink: /home/c1ph3r/ros2_ws/install/my_cpp_package/lib/my_cpp_package/add_two_ints_server
+[4.029s] -- Up-to-date symlink: /home/c1ph3r/ros2_ws/install/my_cpp_package/lib/my_cpp_package/add_two_ints_client
+[4.029s] -- Up-to-date symlink: /home/c1ph3r/ros2_ws/install/my_cpp_package/share/ament_index/resource_index/package_run_dependencies/my_cpp_package
+[4.029s] -- Up-to-date symlink: /home/c1ph3r/ros2_ws/install/my_cpp_package/share/ament_index/resource_index/parent_prefix_path/my_cpp_package
+[4.029s] -- Up-to-date symlink: /home/c1ph3r/ros2_ws/install/my_cpp_package/share/my_cpp_package/environment/ament_prefix_path.sh
+[4.029s] -- Up-to-date symlink: /home/c1ph3r/ros2_ws/install/my_cpp_package/share/my_cpp_package/environment/ament_prefix_path.dsv
+[4.029s] -- Up-to-date symlink: /home/c1ph3r/ros2_ws/install/my_cpp_package/share/my_cpp_package/environment/path.sh
+[4.030s] -- Up-to-date symlink: /home/c1ph3r/ros2_ws/install/my_cpp_package/share/my_cpp_package/environment/path.dsv
+[4.030s] -- Up-to-date symlink: /home/c1ph3r/ros2_ws/install/my_cpp_package/share/my_cpp_package/local_setup.bash
+[4.030s] -- Up-to-date symlink: /home/c1ph3r/ros2_ws/install/my_cpp_package/share/my_cpp_package/local_setup.sh
+[4.030s] -- Up-to-date symlink: /home/c1ph3r/ros2_ws/install/my_cpp_package/share/my_cpp_package/local_setup.zsh
+[4.030s] -- Up-to-date symlink: /home/c1ph3r/ros2_ws/install/my_cpp_package/share/my_cpp_package/local_setup.dsv
+[4.030s] -- Symlinking: /home/c1ph3r/ros2_ws/install/my_cpp_package/share/my_cpp_package/package.dsv
+[4.040s] -- Up-to-date symlink: /home/c1ph3r/ros2_ws/install/my_cpp_package/share/ament_index/resource_index/packages/my_cpp_package
+[4.040s] -- Up-to-date symlink: /home/c1ph3r/ros2_ws/install/my_cpp_package/share/my_cpp_package/cmake/my_cpp_packageConfig.cmake
+[4.040s] -- Up-to-date symlink: /home/c1ph3r/ros2_ws/install/my_cpp_package/share/my_cpp_package/cmake/my_cpp_packageConfig-version.cmake
+[4.040s] -- Up-to-date symlink: /home/c1ph3r/ros2_ws/install/my_cpp_package/share/my_cpp_package/package.xml
+[4.045s] Invoked command in '/home/c1ph3r/ros2_ws/build/my_cpp_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/c1ph3r/ros2_ws/install/my_python_package:/opt/ros/humble /usr/bin/cmake --install /home/c1ph3r/ros2_ws/build/my_cpp_package

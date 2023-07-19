@@ -1,0 +1,14 @@
+[ 15%] Built target smartphone
+[ 15%] Built target add_two_ints_server
+[ 30%] Built target hardware_status_publisher
+[ 30%] Built target cpp_node
+[ 38%] Built target basic_pub
+[ 50%] Built target robot_news_station
+[ 53%] Built target add_two_ints_client
+[ 61%] Built target add_two_ints_client_oops
+[35m[1mConsolidate compiler generated dependencies of target number_publisher[0m
+[ 76%] Built target battery
+[ 76%] Built target basic_sub
+[ 84%] Built target LED_panel
+[ 92%] [32mBuilding CXX object CMakeFiles/number_publisher.dir/src/number_publisher.cpp.o[0m
+[ 96%] Built target number_counter

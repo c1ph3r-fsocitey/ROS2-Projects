@@ -1,0 +1,26 @@
+[0.019s] Invoking command in '/home/c1ph3r/ros2_ws/build/my_cpp_package': CMAKE_PREFIX_PATH=/home/c1ph3r/ros2_ws/install/my_robot_interfaces:/home/c1ph3r/ros2_ws/install/my_cpp_package:/home/c1ph3r/ros2_ws/install/my_python_package:/opt/ros/humble /usr/bin/cmake --build /home/c1ph3r/ros2_ws/build/my_cpp_package -- -j8 -l8
+[0.092s] [ 15%] Built target smartphone
+[0.092s] [ 15%] Built target add_two_ints_server
+[0.094s] [ 30%] Built target hardware_status_publisher
+[0.095s] [ 30%] Built target cpp_node
+[0.097s] [ 38%] Built target basic_pub
+[0.098s] [ 50%] Built target robot_news_station
+[0.098s] [ 53%] Built target add_two_ints_client
+[0.100s] [ 61%] Built target add_two_ints_client_oops
+[0.108s] [35m[1mConsolidate compiler generated dependencies of target number_publisher[0m
+[0.121s] [ 76%] Built target battery
+[0.121s] [ 76%] Built target basic_sub
+[0.122s] [ 84%] Built target LED_panel
+[0.127s] [ 92%] [32mBuilding CXX object CMakeFiles/number_publisher.dir/src/number_publisher.cpp.o[0m
+[0.127s] [ 96%] Built target number_counter
+[2.438s] [01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/number_publisher.cpp:[m[K In constructor ‘[01m[KNumberPublisherNode::NumberPublisherNode()[m[K’:
+[2.438s] [01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/number_publisher.cpp:16:74:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K([m[K’ token
+[2.438s]    16 |         number_timer_ = this->create_wall_timer(std::chrono::milliseconds[01;31m[K([m[Kint) (1000.0 / publish_frequency)),
+[2.438s]       |                                                                          [01;31m[K^[m[K
+[2.439s] [01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/number_publisher.cpp:16:75:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kint[m[K’
+[2.439s]    16 |         number_timer_ = this->create_wall_timer(std::chrono::milliseconds([01;31m[Kint[m[K) (1000.0 / publish_frequency)),
+[2.439s]       |                                                                           [01;31m[K^~~[m[K
+[3.266s] gmake[2]: *** [CMakeFiles/number_publisher.dir/build.make:76: CMakeFiles/number_publisher.dir/src/number_publisher.cpp.o] Error 1
+[3.266s] gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/number_publisher.dir/all] Error 2
+[3.266s] gmake: *** [Makefile:146: all] Error 2
+[3.271s] Invoked command in '/home/c1ph3r/ros2_ws/build/my_cpp_package' returned '2': CMAKE_PREFIX_PATH=/home/c1ph3r/ros2_ws/install/my_robot_interfaces:/home/c1ph3r/ros2_ws/install/my_cpp_package:/home/c1ph3r/ros2_ws/install/my_python_package:/opt/ros/humble /usr/bin/cmake --build /home/c1ph3r/ros2_ws/build/my_cpp_package -- -j8 -l8

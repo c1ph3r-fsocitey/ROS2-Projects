@@ -1,0 +1,64 @@
+[0.018s] Invoking command in '/home/c1ph3r/ros2_ws/build/my_cpp_package': CMAKE_PREFIX_PATH=/home/c1ph3r/ros2_ws/install/my_robot_interfaces:/home/c1ph3r/ros2_ws/install/my_cpp_package:/home/c1ph3r/ros2_ws/install/my_python_package:/opt/ros/humble /usr/bin/cmake --build /home/c1ph3r/ros2_ws/build/my_cpp_package -- -j8 -l8
+[0.102s] [ 10%] Built target cpp_node
+[0.103s] [ 20%] Built target smartphone
+[0.104s] [ 30%] Built target robot_news_station
+[0.107s] [ 40%] Built target add_two_ints_client_oops
+[0.107s] [ 55%] Built target hardware_status_publisher
+[0.108s] [ 60%] Built target add_two_ints_client
+[0.111s] [ 70%] Built target basic_pub
+[0.113s] [ 80%] Built target add_two_ints_server
+[0.116s] [35m[1mConsolidate compiler generated dependencies of target LED_panel[0m
+[0.132s] [ 90%] Built target basic_sub
+[0.133s] [ 95%] [32mBuilding CXX object CMakeFiles/LED_panel.dir/src/LED_panel.cpp.o[0m
+[2.521s] [01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/LED_panel.cpp:55:49:[m[K [01;31m[Kerror: [m[K‘[01m[KLedStateArray[m[K’ is not a member of ‘[01m[Kmy_robot_interfaces::msg[m[K’; did you mean ‘[01m[KLEDStatusArray[m[K’?
+[2.521s]    55 |     rclcpp::Publisher<my_robot_interfaces::msg::[01;31m[KLedStateArray[m[K>::SharedPtr led_status_publisher_;
+[2.521s]       |                                                 [01;31m[K^~~~~~~~~~~~~[m[K
+[2.521s]       |                                                 [32m[KLEDStatusArray[m[K
+[2.522s] [01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/LED_panel.cpp:55:62:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.522s]    55 |     rclcpp::Publisher<my_robot_interfaces::msg::LedStateArray[01;31m[K>[m[K::SharedPtr led_status_publisher_;
+[2.522s]       |                                                              [01;31m[K^[m[K
+[2.522s] [01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/LED_panel.cpp:55:65:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[2.522s]    55 |     rclcpp::Publisher<my_robot_interfaces::msg::LedStateArray>::[01;31m[KSharedPtr[m[K led_status_publisher_;
+[2.522s]       |                                                                 [01;31m[K^~~~~~~~~[m[K
+[2.523s]       |                                                                          [32m[K;[m[K
+[2.525s] [01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/LED_panel.cpp:55:75:[m[K [01;31m[Kerror: [m[K‘[01m[Kled_status_publisher_[m[K’ does not name a type
+[2.525s]    55 |     rclcpp::Publisher<my_robot_interfaces::msg::LedStateArray>::SharedPtr [01;31m[Kled_status_publisher_[m[K;
+[2.525s]       |                                                                           [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[2.553s] [01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/LED_panel.cpp:[m[K In constructor ‘[01m[KLedPanelNode::LedPanelNode()[m[K’:
+[2.554s] [01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/LED_panel.cpp:11:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kled_status_publisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Kled_states_timer_[m[K’?
+[2.554s]    11 |         [01;31m[Kled_status_publisher_[m[K =
+[2.554s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[2.554s]       |         [32m[Kled_states_timer_[m[K
+[2.562s] [01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/LED_panel.cpp:13:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kled_status_timer_[m[K’ was not declared in this scope; did you mean ‘[01m[Kled_states_timer_[m[K’?
+[2.563s]    13 |         [01;31m[Kled_status_timer_[m[K =
+[2.563s]       |         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[2.563s]       |         [32m[Kled_states_timer_[m[K
+[2.578s] [01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/LED_panel.cpp:[m[K In member function ‘[01m[Kvoid LedPanelNode::publishLedStates()[m[K’:
+[2.578s] [01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/LED_panel.cpp:26:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct my_robot_interfaces::msg::LEDStatusArray_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kled_states[m[K’; did you mean ‘[01m[Kled_status[m[K’?
+[2.578s]    26 |         msg.[01;31m[Kled_states[m[K = led_status;
+[2.578s]       |             [01;31m[K^~~~~~~~~~[m[K
+[2.578s]       |             [32m[Kled_status[m[K
+[2.587s] [01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/LED_panel.cpp:27:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kled_status_publisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Kled_states_timer_[m[K’?
+[2.587s]    27 |         [01;31m[Kled_status_publisher_[m[K->publish(msg);
+[2.587s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[2.588s]       |         [32m[Kled_states_timer_[m[K
+[2.591s] [01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/LED_panel.cpp:[m[K In member function ‘[01m[Kvoid LedPanelNode::callbackSetLed(my_robot_interfaces::srv::SetLED_Request_<std::allocator<void> >::SharedPtr, my_robot_interfaces::srv::SetLED_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.591s] [01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/LED_panel.cpp:34:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct my_robot_interfaces::srv::SetLED_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct my_robot_interfaces::srv::SetLED_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kstate[m[K’; did you mean ‘[01m[Kstatus[m[K’?
+[2.592s]    34 |         int64_t status = request->[01;31m[Kstate[m[K;
+[2.592s]       |                                   [01;31m[K^~~~~[m[K
+[2.592s]       |                                   [32m[Kstatus[m[K
+[2.596s] [01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/LED_panel.cpp:42:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kstate[m[K’ was not declared in this scope; did you mean ‘[01m[K_xstate[m[K’?
+[2.596s]    42 |         if ([01;31m[Kstate[m[K != 0 && state != 1)
+[2.596s]       |             [01;31m[K^~~~~[m[K
+[2.597s]       |             [32m[K_xstate[m[K
+[2.601s] [01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/LED_panel.cpp:48:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kstate[m[K’ was not declared in this scope; did you mean ‘[01m[K_xstate[m[K’?
+[2.601s]    48 |         led_status.at(led_number - 1) = [01;31m[Kstate[m[K;
+[2.601s]       |                                         [01;31m[K^~~~~[m[K
+[2.601s]       |                                         [32m[K_xstate[m[K
+[2.605s] [01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/LED_panel.cpp:34:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kstatus[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.605s]    34 |         int64_t [01;35m[Kstatus[m[K = request->state;
+[2.605s]       |                 [01;35m[K^~~~~~[m[K
+[3.535s] gmake[2]: *** [CMakeFiles/LED_panel.dir/build.make:76: CMakeFiles/LED_panel.dir/src/LED_panel.cpp.o] Error 1
+[3.535s] gmake[1]: *** [CMakeFiles/Makefile2:389: CMakeFiles/LED_panel.dir/all] Error 2
+[3.535s] gmake: *** [Makefile:146: all] Error 2
+[3.539s] Invoked command in '/home/c1ph3r/ros2_ws/build/my_cpp_package' returned '2': CMAKE_PREFIX_PATH=/home/c1ph3r/ros2_ws/install/my_robot_interfaces:/home/c1ph3r/ros2_ws/install/my_cpp_package:/home/c1ph3r/ros2_ws/install/my_python_package:/opt/ros/humble /usr/bin/cmake --build /home/c1ph3r/ros2_ws/build/my_cpp_package -- -j8 -l8

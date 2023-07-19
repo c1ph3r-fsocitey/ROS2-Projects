@@ -1,0 +1,77 @@
+[0.000000] (-) TimerEvent: {}
+[0.001279] (-) JobUnselected: {'identifier': 'my_python_package'}
+[0.001357] (-) JobUnselected: {'identifier': 'my_robot_interfaces'}
+[0.001413] (my_cpp_package) JobQueued: {'identifier': 'my_cpp_package', 'dependencies': OrderedDict([('my_robot_interfaces', '/home/c1ph3r/ros2_ws/install/my_robot_interfaces')])}
+[0.001539] (my_cpp_package) JobStarted: {'identifier': 'my_cpp_package'}
+[0.017056] (my_cpp_package) JobProgress: {'identifier': 'my_cpp_package', 'progress': 'cmake'}
+[0.017655] (my_cpp_package) JobProgress: {'identifier': 'my_cpp_package', 'progress': 'build'}
+[0.018446] (my_cpp_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/c1ph3r/ros2_ws/build/my_cpp_package', '--', '-j8', '-l8'], 'cwd': '/home/c1ph3r/ros2_ws/build/my_cpp_package', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'c1ph3r'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/c1ph3r/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/c1ph3r'), ('OLDPWD', '/home/c1ph3r'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1490'), ('SYSTEMD_EXEC_PID', '1706'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4834'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/c1ph3r/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'c1ph3r'), ('JOURNAL_STREAM', '8:32893'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'c1ph3r'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/c1ph3r/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/c1ph3r:@/tmp/.ICE-unix/1682,unix/c1ph3r:/tmp/.ICE-unix/1682'), ('INVOCATION_ID', '4f8f1f6e45924f69a7ae48e25871170a'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TP2371'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/c1ph3r/ros2_ws/install/my_python_package:/home/c1ph3r/ros2_ws/install/my_cpp_package:/home/c1ph3r/ros2_ws/install/my_robot_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:79d1ee6d-44ec-4cc7-af75-7e4e4553eb12'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/c1ph3r/ros2_ws/build/my_cpp_package'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/c1ph3r/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/c1ph3r/ros2_ws/build/my_python_package:/home/c1ph3r/ros2_ws/install/my_python_package/lib/python3.10/site-packages:/home/c1ph3r/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/c1ph3r/ros2_ws/install/my_robot_interfaces:/home/c1ph3r/ros2_ws/install/my_cpp_package:/home/c1ph3r/ros2_ws/install/my_python_package:/opt/ros/humble')]), 'shell': False}
+[0.095277] (my_cpp_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_news_station\x1b[0m\n'}
+[0.098860] (-) TimerEvent: {}
+[0.107868] (my_cpp_package) StdoutLine: {'line': b'[  7%] Built target cpp_node\n'}
+[0.109871] (my_cpp_package) StdoutLine: {'line': b'[ 19%] Built target add_two_ints_server\n'}
+[0.111121] (my_cpp_package) StdoutLine: {'line': b'[ 30%] Built target basic_pub\n'}
+[0.111424] (my_cpp_package) StdoutLine: {'line': b'[ 38%] Built target add_two_ints_client\n'}
+[0.111559] (my_cpp_package) StdoutLine: {'line': b'[ 38%] Built target hardware_status_publisher\n'}
+[0.114571] (my_cpp_package) StdoutLine: {'line': b'[ 46%] Built target add_two_ints_client_oops\n'}
+[0.115561] (my_cpp_package) StdoutLine: {'line': b'[ 53%] Built target smartphone\n'}
+[0.119939] (my_cpp_package) StdoutLine: {'line': b'[ 61%] Built target robot_news_station\n'}
+[0.138196] (my_cpp_package) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/LED_panel.dir/src/LED_panel.cpp.o\x1b[0m\n'}
+[0.138452] (my_cpp_package) StdoutLine: {'line': b'[ 80%] Built target basic_sub\n'}
+[0.138558] (my_cpp_package) StdoutLine: {'line': b'[ 80%] Built target battery\n'}
+[0.141280] (my_cpp_package) StdoutLine: {'line': b'[ 96%] Built target number_publisher\n'}
+[0.141528] (my_cpp_package) StdoutLine: {'line': b'[ 96%] Built target number_counter\n'}
+[0.198910] (-) TimerEvent: {}
+[0.299225] (-) TimerEvent: {}
+[0.399550] (-) TimerEvent: {}
+[0.499897] (-) TimerEvent: {}
+[0.600238] (-) TimerEvent: {}
+[0.700589] (-) TimerEvent: {}
+[0.800922] (-) TimerEvent: {}
+[0.901279] (-) TimerEvent: {}
+[1.001653] (-) TimerEvent: {}
+[1.102072] (-) TimerEvent: {}
+[1.202396] (-) TimerEvent: {}
+[1.302743] (-) TimerEvent: {}
+[1.403127] (-) TimerEvent: {}
+[1.503485] (-) TimerEvent: {}
+[1.603864] (-) TimerEvent: {}
+[1.704214] (-) TimerEvent: {}
+[1.804554] (-) TimerEvent: {}
+[1.904910] (-) TimerEvent: {}
+[2.005268] (-) TimerEvent: {}
+[2.105625] (-) TimerEvent: {}
+[2.205997] (-) TimerEvent: {}
+[2.306368] (-) TimerEvent: {}
+[2.406733] (-) TimerEvent: {}
+[2.493511] (my_cpp_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/LED_panel.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KLedPanelNode::LedPanelNode()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.493841] (my_cpp_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/LED_panel.cpp:11:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of non-static member function \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<long int, std::allocator<long int> >& rclcpp::Parameter::as_integer_array() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.494024] (my_cpp_package) StderrLine: {'line': b'   11 |         led_status = this->get_parameter("led_status").\x1b[01;31m\x1b[Kas_integer_array\x1b[m\x1b[K;\n'}
+[2.494180] (my_cpp_package) StderrLine: {'line': b'      |                                                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.494330] (my_cpp_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp:28\x1b[m\x1b[K,\n'}
+[2.494481] (my_cpp_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:54\x1b[m\x1b[K,\n'}
+[2.494592] (my_cpp_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[2.494688] (my_cpp_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[2.494775] (my_cpp_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.494895] (my_cpp_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/LED_panel.cpp:1\x1b[m\x1b[K:\n'}
+[2.494989] (my_cpp_package) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:181:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2.495077] (my_cpp_package) StderrLine: {'line': b'  181 |   \x1b[01;36m\x1b[Kas_integer_array\x1b[m\x1b[K() const;\n'}
+[2.495164] (my_cpp_package) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.506911] (-) TimerEvent: {}
+[2.607305] (-) TimerEvent: {}
+[2.707717] (-) TimerEvent: {}
+[2.808133] (-) TimerEvent: {}
+[2.908549] (-) TimerEvent: {}
+[3.008964] (-) TimerEvent: {}
+[3.109384] (-) TimerEvent: {}
+[3.209803] (-) TimerEvent: {}
+[3.310224] (-) TimerEvent: {}
+[3.410650] (-) TimerEvent: {}
+[3.511086] (-) TimerEvent: {}
+[3.546878] (my_cpp_package) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/LED_panel.dir/build.make:76: CMakeFiles/LED_panel.dir/src/LED_panel.cpp.o] Error 1\n'}
+[3.547242] (my_cpp_package) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:395: CMakeFiles/LED_panel.dir/all] Error 2\n'}
+[3.547476] (my_cpp_package) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[3.550389] (my_cpp_package) CommandEnded: {'returncode': 2}
+[3.611212] (-) TimerEvent: {}
+[3.689835] (my_cpp_package) JobEnded: {'identifier': 'my_cpp_package', 'rc': 2}
+[3.700595] (-) EventReactorShutdown: {}

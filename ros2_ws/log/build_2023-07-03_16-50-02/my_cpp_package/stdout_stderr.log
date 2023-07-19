@@ -1,0 +1,50 @@
+[35m[1mConsolidate compiler generated dependencies of target smartphone[0m
+[ 11%] Built target robot_news_station
+[ 22%] Built target add_two_ints_server
+[ 33%] Built target add_two_ints_client_oops
+[ 44%] Built target add_two_ints_client
+[ 55%] Built target hardware_status_publisher
+[ 66%] Built target smartphone
+[ 77%] Built target cpp_node
+[ 88%] Built target basic_pub
+[ 94%] [32mBuilding CXX object CMakeFiles/basic_sub.dir/src/basic_sub.cpp.o[0m
+[01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/basic_sub.cpp:[m[K In constructor ‘[01m[KbasicSubscriber::basicSubscriber()[m[K’:
+[01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/basic_sub.cpp:9:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kexample_interface[m[K’ was not declared in this scope; did you mean ‘[01m[Kexample_interfaces[m[K’?
+    9 |         subscriber_ = this->create_subscription<[01;31m[Kexample_interface[m[K::msg::String>("basic_pub", 10
+      |                                                 [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |                                                 [32m[Kexample_interfaces[m[K
+[01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/basic_sub.cpp:9:29:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+    9 |         subscriber_ = this->[01;31m[Kcreate_subscription<example_interface::msg::String>[m[K("basic_pub", 10
+      |                             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/basic_sub.cpp:10:21:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kstd[m[K’
+   10 |                     [01;31m[Kstd[m[K::bind(&basicSubscriber::callbackSubscriber, this, std::placeholders::_1));
+      |                     [01;31m[K^~~[m[K
+[01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/basic_sub.cpp:9:80:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+    9 | ubscriber_ = this->create_subscription<example_interface::msg::String>[01;36m[K([m[K"basic_pub", 10
+      |                                                                       [01;36m[K^[m[K
+
+[01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/basic_sub.cpp:9:80:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KbasicSubscriber::create_subscription<<expression error> >(const char [10], int)[m[K’
+    9 | ubscriber_ = [01;31m[Kthis->create_subscription<example_interface::msg::String>("basic_pub", 10[m[K
+      |              [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+
+   10 | [01;31m[K           std[m[K::bind(&basicSubscriber::callbackSubscriber, this, std::placeholders::_1));
+      |            [01;31m[K~~~[m[K                                                         
+
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/basic_sub.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+  219 |   [01;36m[Kcreate_subscription[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/basic_sub.cpp:9:80:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+    9 | ubscriber_ = [01;31m[Kthis->create_subscription<example_interface::msg::String>("basic_pub", 10[m[K
+      |              [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+
+   10 | [01;31m[K           std[m[K::bind(&basicSubscriber::callbackSubscriber, this, std::placeholders::_1));
+      |            [01;31m[K~~~[m[K                                                         
+
+gmake[2]: *** [CMakeFiles/basic_sub.dir/build.make:76: CMakeFiles/basic_sub.dir/src/basic_sub.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:361: CMakeFiles/basic_sub.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

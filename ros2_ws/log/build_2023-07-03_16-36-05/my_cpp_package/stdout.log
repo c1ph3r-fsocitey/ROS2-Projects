@@ -1,0 +1,11 @@
+[35m[1mConsolidate compiler generated dependencies of target basic_pub[0m
+[  6%] [32mBuilding CXX object CMakeFiles/robot_news_station.dir/src/robot_news_station.cpp.o[0m
+[ 18%] Built target add_two_ints_client_oops
+[ 31%] Built target hardware_status_publisher
+[ 50%] Built target smartphone
+[ 56%] Built target add_two_ints_server
+[ 81%] Built target add_two_ints_client
+[ 81%] Built target cpp_node
+[ 87%] [32mBuilding CXX object CMakeFiles/basic_pub.dir/src/basic_pub.cpp.o[0m
+[ 93%] [32m[1mLinking CXX executable robot_news_station[0m
+[ 93%] Built target robot_news_station

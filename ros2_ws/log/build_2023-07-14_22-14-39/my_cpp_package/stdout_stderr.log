@@ -1,0 +1,30 @@
+[35m[1mConsolidate compiler generated dependencies of target robot_news_station[0m
+[  7%] Built target cpp_node
+[ 19%] Built target add_two_ints_server
+[ 30%] Built target basic_pub
+[ 38%] Built target add_two_ints_client
+[ 38%] Built target hardware_status_publisher
+[ 46%] Built target add_two_ints_client_oops
+[ 53%] Built target smartphone
+[ 61%] Built target robot_news_station
+[ 76%] [32mBuilding CXX object CMakeFiles/LED_panel.dir/src/LED_panel.cpp.o[0m
+[ 80%] Built target basic_sub
+[ 80%] Built target battery
+[ 96%] Built target number_publisher
+[ 96%] Built target number_counter
+[01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/LED_panel.cpp:[m[K In constructor ‘[01m[KLedPanelNode::LedPanelNode()[m[K’:
+[01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/LED_panel.cpp:11:56:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kconst std::vector<long int, std::allocator<long int> >& rclcpp::Parameter::as_integer_array() const[m[K’
+   11 |         led_status = this->get_parameter("led_status").[01;31m[Kas_integer_array[m[K;
+      |                                                        [01;31m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:54[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/LED_panel.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:181:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  181 |   [01;36m[Kas_integer_array[m[K() const;
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/LED_panel.dir/build.make:76: CMakeFiles/LED_panel.dir/src/LED_panel.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:395: CMakeFiles/LED_panel.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,31 @@
+[1.146s] Invoking command in '/home/c1ph3r/ros2_ws/build/my_python_package': PYTHONPATH=/home/c1ph3r/ros2_ws/build/my_python_package/prefix_override:/home/c1ph3r/ros2_ws/install/my_python_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/c1ph3r/ros2_ws/build/my_python_package/build
+[1.596s] running develop
+[1.943s] Invoked command in '/home/c1ph3r/ros2_ws/build/my_python_package' returned '0': PYTHONPATH=/home/c1ph3r/ros2_ws/build/my_python_package/prefix_override:/home/c1ph3r/ros2_ws/install/my_python_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/c1ph3r/ros2_ws/build/my_python_package/build
+[1.947s] Invoking command in '/home/c1ph3r/ros2_ws/src/my_python_package': PYTHONPATH=/home/c1ph3r/ros2_ws/build/my_python_package/prefix_override:/home/c1ph3r/ros2_ws/install/my_python_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_python_package build --build-base /home/c1ph3r/ros2_ws/build/my_python_package/build install --record /home/c1ph3r/ros2_ws/build/my_python_package/install.log --single-version-externally-managed
+[2.351s] running egg_info
+[2.353s] writing ../../build/my_python_package/my_python_package.egg-info/PKG-INFO
+[2.353s] writing dependency_links to ../../build/my_python_package/my_python_package.egg-info/dependency_links.txt
+[2.353s] writing entry points to ../../build/my_python_package/my_python_package.egg-info/entry_points.txt
+[2.354s] writing requirements to ../../build/my_python_package/my_python_package.egg-info/requires.txt
+[2.354s] writing top-level names to ../../build/my_python_package/my_python_package.egg-info/top_level.txt
+[2.357s] reading manifest file '../../build/my_python_package/my_python_package.egg-info/SOURCES.txt'
+[2.358s] writing manifest file '../../build/my_python_package/my_python_package.egg-info/SOURCES.txt'
+[2.359s] running build
+[2.359s] running build_py
+[2.359s] copying my_python_package/number_publisher.py -> /home/c1ph3r/ros2_ws/build/my_python_package/build/lib/my_python_package
+[2.360s] running install
+[2.360s] running install_lib
+[2.362s] copying /home/c1ph3r/ros2_ws/build/my_python_package/build/lib/my_python_package/number_publisher.py -> /home/c1ph3r/ros2_ws/install/my_python_package/lib/python3.10/site-packages/my_python_package
+[2.363s] byte-compiling /home/c1ph3r/ros2_ws/install/my_python_package/lib/python3.10/site-packages/my_python_package/number_publisher.py to number_publisher.cpython-310.pyc
+[2.364s] running install_data
+[2.366s] running install_egg_info
+[2.368s] removing '/home/c1ph3r/ros2_ws/install/my_python_package/lib/python3.10/site-packages/my_python_package-0.0.0-py3.10.egg-info' (and everything under it)
+[2.369s] Copying ../../build/my_python_package/my_python_package.egg-info to /home/c1ph3r/ros2_ws/install/my_python_package/lib/python3.10/site-packages/my_python_package-0.0.0-py3.10.egg-info
+[2.371s] running install_scripts
+[2.404s] Installing number_publisher script to /home/c1ph3r/ros2_ws/install/my_python_package/lib/my_python_package
+[2.404s] Installing py_node script to /home/c1ph3r/ros2_ws/install/my_python_package/lib/my_python_package
+[2.404s] Installing py_node_oop script to /home/c1ph3r/ros2_ws/install/my_python_package/lib/my_python_package
+[2.405s] Installing robot_news_station script to /home/c1ph3r/ros2_ws/install/my_python_package/lib/my_python_package
+[2.405s] Installing smartphone script to /home/c1ph3r/ros2_ws/install/my_python_package/lib/my_python_package
+[2.405s] writing list of installed files to '/home/c1ph3r/ros2_ws/build/my_python_package/install.log'
+[2.486s] Invoked command in '/home/c1ph3r/ros2_ws/src/my_python_package' returned '0': PYTHONPATH=/home/c1ph3r/ros2_ws/build/my_python_package/prefix_override:/home/c1ph3r/ros2_ws/install/my_python_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_python_package build --build-base /home/c1ph3r/ros2_ws/build/my_python_package/build install --record /home/c1ph3r/ros2_ws/build/my_python_package/install.log --single-version-externally-managed

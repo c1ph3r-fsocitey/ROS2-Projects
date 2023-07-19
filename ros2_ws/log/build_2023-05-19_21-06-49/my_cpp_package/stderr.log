@@ -1,0 +1,226 @@
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/add_two_ints_client.cpp:1[m[K:
+[01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/add_two_ints_client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/add_two_ints_client.cpp:11:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   11 |         RCLCPP_WARN([01;31m[Kthis[m[K->get_logger(), "Server not available, waiting again...");
+      |                     [01;31m[K^~~~[m[K
+[01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/add_two_ints_client.cpp:11:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/add_two_ints_client.cpp:11:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   11 |         [01;31m[KRCLCPP_WARN[m[K(this->get_logger(), "Server not available, waiting again...");
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/add_two_ints_client.cpp:11:9:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   11 |         [01;31m[KRCLCPP_WARN[m[K(this->get_logger(), "Server not available, waiting again...");
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/add_two_ints_client.cpp:11:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   11 |         [01;31m[KRCLCPP_WARN[m[K(this->get_logger(), "Server not available, waiting again...");
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/add_two_ints_client.cpp:11:9:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   11 |         [01;31m[KRCLCPP_WARN[m[K(this->get_logger(), "Server not available, waiting again...");
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/add_two_ints_client.cpp:11:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   11 |         [01;31m[KRCLCPP_WARN[m[K(this->get_logger(), "Server not available, waiting again...");
+      |         [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/add_two_ints_client.cpp:1[m[K:
+[01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/add_two_ints_client.cpp:11:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   11 |         RCLCPP_WARN([01;31m[Kthis[m[K->get_logger(), "Server not available, waiting again...");
+      |                     [01;31m[K^~~~[m[K
+[01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/add_two_ints_client.cpp:11:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   11 |         RCLCPP_WARN([01;31m[Kthis[m[K->get_logger(), "Server not available, waiting again...");
+      |                     [01;31m[K^~~~[m[K
+[01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/add_two_ints_client.cpp:13:10:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kusing[m[K’
+   13 |     auto [01;31m[Kusing[m[K std::placeholders::_1;
+      |          [01;31m[K^~~~~[m[K
+[01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/add_two_ints_client.cpp:14:62:[m[K [01;31m[Kerror: [m[K‘[01m[KAddTwoIntd[m[K’ is not a member of ‘[01m[Kexample_interfaces::srv[m[K’; did you mean ‘[01m[KAddTwoInts[m[K’?
+   14 |     auto request = std::make_shared<example_interfaces::srv::[01;31m[KAddTwoIntd[m[K::Request>();
+      |                                                              [01;31m[K^~~~~~~~~~[m[K
+      |                                                              [32m[KAddTwoInts[m[K
+[01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/add_two_ints_client.cpp:14:25:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   14 |     auto request = std::[01;31m[Kmake_shared<example_interfaces::srv::AddTwoIntd::Request>[m[K();
+      |                         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/add_two_ints_client.cpp:14:82:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+   14 |     auto request = [01;31m[Kstd::make_shared<example_interfaces::srv::AddTwoIntd::Request>()[m[K;
+      |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/add_two_ints_client.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+  875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/add_two_ints_client.cpp:14:82:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   14 |     auto request = [01;31m[Kstd::make_shared<example_interfaces::srv::AddTwoIntd::Request>()[m[K;
+      |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/add_two_ints_client.cpp:1[m[K:
+[01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/add_two_ints_client.cpp:17:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   17 |     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Sending request");
+      |                 [01;31m[K^~~~[m[K
+[01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/add_two_ints_client.cpp:17:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/add_two_ints_client.cpp:17:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   17 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Sending request");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/add_two_ints_client.cpp:17:5:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   17 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Sending request");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/add_two_ints_client.cpp:17:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   17 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Sending request");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/add_two_ints_client.cpp:17:5:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   17 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Sending request");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/add_two_ints_client.cpp:17:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   17 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Sending request");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/add_two_ints_client.cpp:1[m[K:
+[01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/add_two_ints_client.cpp:17:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   17 |     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Sending request");
+      |                 [01;31m[K^~~~[m[K
+[01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/add_two_ints_client.cpp:17:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   17 |     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Sending request");
+      |                 [01;31m[K^~~~[m[K
+[01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/add_two_ints_client.cpp:19:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kspin_until_future_completion[m[K’ is not a member of ‘[01m[Krclcpp[m[K’; did you mean ‘[01m[Kspin_until_future_complete[m[K’?
+   19 |     if (rclcpp::[01;31m[Kspin_until_future_completion[m[K(node, future) == rclcpp::executor::FutureReturnCode::SUCCESS)
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                 [32m[Kspin_until_future_complete[m[K
+[01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/add_two_ints_client.cpp:19:71:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::executor[m[K’ has not been declared
+   19 |     if (rclcpp::spin_until_future_completion(node, future) == rclcpp::[01;31m[Kexecutor[m[K::FutureReturnCode::SUCCESS)
+      |                                                                       [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/add_two_ints_client.cpp:1[m[K:
+[01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/add_two_ints_client.cpp:21:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   21 |         RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "%ld + %ld = %ld", request->a, request->b, future.get()->sum);
+      |                     [01;31m[K^~~~[m[K
+[01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/add_two_ints_client.cpp:21:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/add_two_ints_client.cpp:21:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   21 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "%ld + %ld = %ld", request->a, request->b, future.get()->sum);
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/add_two_ints_client.cpp:21:9:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   21 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "%ld + %ld = %ld", request->a, request->b, future.get()->sum);
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/add_two_ints_client.cpp:21:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   21 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "%ld + %ld = %ld", request->a, request->b, future.get()->sum);
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/add_two_ints_client.cpp:21:9:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   21 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "%ld + %ld = %ld", request->a, request->b, future.get()->sum);
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/add_two_ints_client.cpp:21:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   21 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "%ld + %ld = %ld", request->a, request->b, future.get()->sum);
+      |         [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/add_two_ints_client.cpp:1[m[K:
+[01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/add_two_ints_client.cpp:21:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   21 |         RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "%ld + %ld = %ld", request->a, request->b, future.get()->sum);
+      |                     [01;31m[K^~~~[m[K
+[01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/add_two_ints_client.cpp:21:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   21 |         RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "%ld + %ld = %ld", request->a, request->b, future.get()->sum);
+      |                     [01;31m[K^~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/add_two_ints_client.cpp:1[m[K:
+[01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/add_two_ints_client.cpp:25:22:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   25 |         RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(), "Error while calling service");
+      |                      [01;31m[K^~~~[m[K
+[01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/add_two_ints_client.cpp:25:22:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/add_two_ints_client.cpp:25:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   25 |         [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Error while calling service");
+      |         [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/add_two_ints_client.cpp:25:9:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   25 |         [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Error while calling service");
+      |         [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/add_two_ints_client.cpp:25:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   25 |         [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Error while calling service");
+      |         [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/add_two_ints_client.cpp:25:9:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   25 |         [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Error while calling service");
+      |         [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/add_two_ints_client.cpp:25:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   25 |         [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Error while calling service");
+      |         [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/add_two_ints_client.cpp:1[m[K:
+[01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/add_two_ints_client.cpp:25:22:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   25 |         RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(), "Error while calling service");
+      |                      [01;31m[K^~~~[m[K
+[01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/add_two_ints_client.cpp:25:22:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   25 |         RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(), "Error while calling service");
+      |                      [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/add_two_ints_client.dir/build.make:76: CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/add_two_ints_client.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

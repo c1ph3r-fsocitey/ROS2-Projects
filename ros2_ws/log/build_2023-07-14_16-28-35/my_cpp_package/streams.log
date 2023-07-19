@@ -1,0 +1,79 @@
+[0.020s] Invoking command in '/home/c1ph3r/ros2_ws/build/my_cpp_package': CMAKE_PREFIX_PATH=/home/c1ph3r/ros2_ws/install/my_robot_interfaces:/home/c1ph3r/ros2_ws/install/my_cpp_package:/home/c1ph3r/ros2_ws/install/my_python_package:/opt/ros/humble /usr/bin/cmake --build /home/c1ph3r/ros2_ws/build/my_cpp_package -- -j8 -l8
+[0.070s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.276s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[0.344s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.347s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.353s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.365s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.382s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.445s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.447s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.568s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.742s] -- Found rclcpp_components: 16.0.4 (/opt/ros/humble/share/rclcpp_components/cmake)
+[0.806s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[0.957s] -- Found my_robot_interfaces: 0.0.0 (/home/c1ph3r/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake)
+[1.072s] -- Configuring done
+[1.118s] -- Generating done
+[1.121s] -- Build files have been written to: /home/c1ph3r/ros2_ws/build/my_cpp_package
+[1.157s] [35m[1mConsolidate compiler generated dependencies of target add_two_ints_server[0m
+[1.158s] [35m[1mConsolidate compiler generated dependencies of target basic_pub[0m
+[1.159s] [35m[1mConsolidate compiler generated dependencies of target smartphone[0m
+[1.159s] [35m[1mConsolidate compiler generated dependencies of target hardware_status_publisher[0m
+[1.159s] [35m[1mConsolidate compiler generated dependencies of target cpp_node[0m
+[1.160s] [35m[1mConsolidate compiler generated dependencies of target robot_news_station[0m
+[1.160s] [35m[1mConsolidate compiler generated dependencies of target add_two_ints_client[0m
+[1.160s] [35m[1mConsolidate compiler generated dependencies of target add_two_ints_client_oops[0m
+[1.179s] [ 11%] Built target add_two_ints_server
+[1.179s] [ 15%] Built target basic_pub
+[1.183s] [ 61%] Built target smartphone
+[1.184s] [ 61%] Built target robot_news_station
+[1.184s] [ 61%] Built target add_two_ints_client_oops
+[1.184s] [ 61%] Built target add_two_ints_client
+[1.184s] [ 61%] Built target cpp_node
+[1.184s] [ 61%] Built target hardware_status_publisher
+[1.191s] [35m[1mConsolidate compiler generated dependencies of target basic_sub[0m
+[1.191s] [35m[1mConsolidate compiler generated dependencies of target LED_panel[0m
+[1.195s] [35m[1mConsolidate compiler generated dependencies of target battery[0m
+[1.204s] [ 69%] [32mBuilding CXX object CMakeFiles/number_publisher.dir/src/number_publisher.cpp.o[0m
+[1.204s] [ 69%] [32mBuilding CXX object CMakeFiles/number_counter.dir/src/number_counter.cpp.o[0m
+[1.211s] [ 76%] Built target basic_sub
+[1.212s] [ 84%] Built target LED_panel
+[1.215s] [ 92%] Built target battery
+[5.832s] [ 96%] [32m[1mLinking CXX executable number_publisher[0m
+[6.072s] [ 96%] Built target number_publisher
+[10.907s] [100%] [32m[1mLinking CXX executable number_counter[0m
+[11.462s] [100%] Built target number_counter
+[11.476s] Invoked command in '/home/c1ph3r/ros2_ws/build/my_cpp_package' returned '0': CMAKE_PREFIX_PATH=/home/c1ph3r/ros2_ws/install/my_robot_interfaces:/home/c1ph3r/ros2_ws/install/my_cpp_package:/home/c1ph3r/ros2_ws/install/my_python_package:/opt/ros/humble /usr/bin/cmake --build /home/c1ph3r/ros2_ws/build/my_cpp_package -- -j8 -l8
+[11.552s] Invoking command in '/home/c1ph3r/ros2_ws/build/my_cpp_package': CMAKE_PREFIX_PATH=/home/c1ph3r/ros2_ws/install/my_robot_interfaces:/home/c1ph3r/ros2_ws/install/my_cpp_package:/home/c1ph3r/ros2_ws/install/my_python_package:/opt/ros/humble /usr/bin/cmake --install /home/c1ph3r/ros2_ws/build/my_cpp_package
+[11.560s] -- Install configuration: ""
+[11.560s] -- Up-to-date: /home/c1ph3r/ros2_ws/install/my_cpp_package/lib/my_cpp_package/cpp_node
+[11.560s] -- Up-to-date: /home/c1ph3r/ros2_ws/install/my_cpp_package/lib/my_cpp_package/robot_news_station
+[11.560s] -- Up-to-date: /home/c1ph3r/ros2_ws/install/my_cpp_package/lib/my_cpp_package/smartphone
+[11.561s] -- Up-to-date: /home/c1ph3r/ros2_ws/install/my_cpp_package/lib/my_cpp_package/add_two_ints_server
+[11.561s] -- Up-to-date: /home/c1ph3r/ros2_ws/install/my_cpp_package/lib/my_cpp_package/add_two_ints_client
+[11.561s] -- Up-to-date: /home/c1ph3r/ros2_ws/install/my_cpp_package/lib/my_cpp_package/add_two_ints_client_oops
+[11.561s] -- Up-to-date: /home/c1ph3r/ros2_ws/install/my_cpp_package/lib/my_cpp_package/hardware_status_publisher
+[11.562s] -- Up-to-date: /home/c1ph3r/ros2_ws/install/my_cpp_package/lib/my_cpp_package/basic_pub
+[11.562s] -- Up-to-date: /home/c1ph3r/ros2_ws/install/my_cpp_package/lib/my_cpp_package/basic_sub
+[11.562s] -- Up-to-date: /home/c1ph3r/ros2_ws/install/my_cpp_package/lib/my_cpp_package/LED_panel
+[11.562s] -- Up-to-date: /home/c1ph3r/ros2_ws/install/my_cpp_package/lib/my_cpp_package/battery
+[11.563s] -- Installing: /home/c1ph3r/ros2_ws/install/my_cpp_package/lib/my_cpp_package/number_counter
+[11.567s] -- Set runtime path of "/home/c1ph3r/ros2_ws/install/my_cpp_package/lib/my_cpp_package/number_counter" to ""
+[11.568s] -- Installing: /home/c1ph3r/ros2_ws/install/my_cpp_package/lib/my_cpp_package/number_publisher
+[11.569s] -- Set runtime path of "/home/c1ph3r/ros2_ws/install/my_cpp_package/lib/my_cpp_package/number_publisher" to ""
+[11.569s] -- Up-to-date: /home/c1ph3r/ros2_ws/install/my_cpp_package/share/ament_index/resource_index/package_run_dependencies/my_cpp_package
+[11.569s] -- Up-to-date: /home/c1ph3r/ros2_ws/install/my_cpp_package/share/ament_index/resource_index/parent_prefix_path/my_cpp_package
+[11.569s] -- Up-to-date: /home/c1ph3r/ros2_ws/install/my_cpp_package/share/my_cpp_package/environment/ament_prefix_path.sh
+[11.569s] -- Installing: /home/c1ph3r/ros2_ws/install/my_cpp_package/share/my_cpp_package/environment/ament_prefix_path.dsv
+[11.569s] -- Up-to-date: /home/c1ph3r/ros2_ws/install/my_cpp_package/share/my_cpp_package/environment/path.sh
+[11.570s] -- Installing: /home/c1ph3r/ros2_ws/install/my_cpp_package/share/my_cpp_package/environment/path.dsv
+[11.570s] -- Up-to-date: /home/c1ph3r/ros2_ws/install/my_cpp_package/share/my_cpp_package/local_setup.bash
+[11.570s] -- Up-to-date: /home/c1ph3r/ros2_ws/install/my_cpp_package/share/my_cpp_package/local_setup.sh
+[11.570s] -- Up-to-date: /home/c1ph3r/ros2_ws/install/my_cpp_package/share/my_cpp_package/local_setup.zsh
+[11.570s] -- Installing: /home/c1ph3r/ros2_ws/install/my_cpp_package/share/my_cpp_package/local_setup.dsv
+[11.570s] -- Installing: /home/c1ph3r/ros2_ws/install/my_cpp_package/share/my_cpp_package/package.dsv
+[11.570s] -- Up-to-date: /home/c1ph3r/ros2_ws/install/my_cpp_package/share/ament_index/resource_index/packages/my_cpp_package
+[11.570s] -- Up-to-date: /home/c1ph3r/ros2_ws/install/my_cpp_package/share/my_cpp_package/cmake/my_cpp_packageConfig.cmake
+[11.570s] -- Up-to-date: /home/c1ph3r/ros2_ws/install/my_cpp_package/share/my_cpp_package/cmake/my_cpp_packageConfig-version.cmake
+[11.570s] -- Up-to-date: /home/c1ph3r/ros2_ws/install/my_cpp_package/share/my_cpp_package/package.xml
+[11.573s] Invoked command in '/home/c1ph3r/ros2_ws/build/my_cpp_package' returned '0': CMAKE_PREFIX_PATH=/home/c1ph3r/ros2_ws/install/my_robot_interfaces:/home/c1ph3r/ros2_ws/install/my_cpp_package:/home/c1ph3r/ros2_ws/install/my_python_package:/opt/ros/humble /usr/bin/cmake --install /home/c1ph3r/ros2_ws/build/my_cpp_package

@@ -1,0 +1,54 @@
+[0.019s] Invoking command in '/home/c1ph3r/ros2_ws/build/my_cpp_package': CMAKE_PREFIX_PATH=/home/c1ph3r/ros2_ws/install/my_robot_interfaces:/home/c1ph3r/ros2_ws/install/my_cpp_package:/home/c1ph3r/ros2_ws/install/my_python_package:/opt/ros/humble /usr/bin/cmake --build /home/c1ph3r/ros2_ws/build/my_cpp_package -- -j8 -l8
+[0.055s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.230s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.246s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[0.290s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.294s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.304s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.326s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.345s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.428s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.431s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.571s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.772s] -- Found rclcpp_components: 16.0.4 (/opt/ros/humble/share/rclcpp_components/cmake)
+[0.848s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[1.018s] -- Found my_robot_interfaces: 0.0.0 (/home/c1ph3r/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake)
+[1.137s] -- Configuring done
+[1.182s] -- Generating done
+[1.185s] -- Build files have been written to: /home/c1ph3r/ros2_ws/build/my_cpp_package
+[1.226s] [35m[1mConsolidate compiler generated dependencies of target add_two_ints_client_oops[0m
+[1.226s] [35m[1mConsolidate compiler generated dependencies of target hardware_status_publisher[0m
+[1.226s] [35m[1mConsolidate compiler generated dependencies of target robot_news_station[0m
+[1.228s] [35m[1mConsolidate compiler generated dependencies of target smartphone[0m
+[1.229s] [35m[1mConsolidate compiler generated dependencies of target add_two_ints_server[0m
+[1.234s] [35m[1mConsolidate compiler generated dependencies of target cpp_node[0m
+[1.236s] [35m[1mConsolidate compiler generated dependencies of target add_two_ints_client[0m
+[1.242s] [  6%] [32mBuilding CXX object CMakeFiles/basic_pub.dir/src/basic_pub.cpp.o[0m
+[1.252s] [ 18%] Built target hardware_status_publisher
+[1.254s] [ 31%] Built target add_two_ints_client_oops
+[1.258s] [ 56%] [32mBuilding CXX object CMakeFiles/robot_news_station.dir/src/robot_news_station.cpp.o[0m
+[1.258s] [ 62%] Built target add_two_ints_server
+[1.258s] [ 62%] Built target cpp_node
+[1.259s] [ 75%] Built target smartphone
+[1.260s] [ 87%] Built target add_two_ints_client
+[3.895s] [01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/basic_pub.cpp:[m[K In constructor ‘[01m[KbasicPublisher::basicPublisher()[m[K’:
+[3.896s] [01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/basic_pub.cpp:9:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass basicPublisher[m[K’ has no member named ‘[01m[Kcreate_pulbisher[m[K’; did you mean ‘[01m[Kcreate_publisher[m[K’?
+[3.896s]     9 |         publisher_ = this->[01;31m[Kcreate_pulbisher[m[K<example_interfaces::msg::String>("basic_pub", 10);
+[3.896s]       |                            [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[3.896s]       |                            [32m[Kcreate_publisher[m[K
+[3.896s] [01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/basic_pub.cpp:9:76:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[3.897s]     9 |         publisher_ = this->create_pulbisher<example_interfaces::msg::String[01;31m[K>[m[K("basic_pub", 10);
+[3.897s]       |                                                                            [01;31m[K^[m[K
+[3.897s] [01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/basic_pub.cpp:9:78:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[3.897s]     9 |         publisher_ = this->create_pulbisher<example_interfaces::msg::String>([01;35m[K"basic_pub"[m[K, 10);
+[3.897s]       |                                                                              [01;35m[K^~~~~~~~~~~[m[K
+[3.897s] [01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/basic_pub.cpp:10:101:[m[K [01;31m[Kerror: [m[K‘[01m[Kpulbish_news[m[K’ is not a member of ‘[01m[KbasicPublisher[m[K’
+[3.898s]    10 |         timer_ = this->create_wall_timer(std::chrono::milliseconds(500), std::bind(&basicPublisher::[01;31m[Kpulbish_news[m[K), this)
+[3.898s]       |                                                                                                     [01;31m[K^~~~~~~~~~~~[m[K
+[4.454s] gmake[2]: *** [CMakeFiles/basic_pub.dir/build.make:76: CMakeFiles/basic_pub.dir/src/basic_pub.cpp.o] Error 1
+[4.454s] gmake[1]: *** [CMakeFiles/Makefile2:333: CMakeFiles/basic_pub.dir/all] Error 2
+[4.455s] gmake[1]: *** Waiting for unfinished jobs....
+[5.966s] [ 93%] [32m[1mLinking CXX executable robot_news_station[0m
+[6.237s] [ 93%] Built target robot_news_station
+[6.239s] gmake: *** [Makefile:146: all] Error 2
+[6.241s] Invoked command in '/home/c1ph3r/ros2_ws/build/my_cpp_package' returned '2': CMAKE_PREFIX_PATH=/home/c1ph3r/ros2_ws/install/my_robot_interfaces:/home/c1ph3r/ros2_ws/install/my_cpp_package:/home/c1ph3r/ros2_ws/install/my_python_package:/opt/ros/humble /usr/bin/cmake --build /home/c1ph3r/ros2_ws/build/my_cpp_package -- -j8 -l8

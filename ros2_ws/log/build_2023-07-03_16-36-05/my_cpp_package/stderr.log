@@ -1,0 +1,8 @@
+[01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/basic_pub.cpp:[m[K In constructor ‘[01m[KbasicPublisher::basicPublisher()[m[K’:
+[01m[K/home/c1ph3r/ros2_ws/src/my_cpp_package/src/basic_pub.cpp:11:53:[m[K [01;31m[Kerror: [m[K‘[01m[KRobotNewsStation[m[K’ has not been declared
+   11 |                                          std::bind(&[01;31m[KRobotNewsStation[m[K::basicPubLish, this));
+      |                                                     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/basic_pub.dir/build.make:76: CMakeFiles/basic_pub.dir/src/basic_pub.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:333: CMakeFiles/basic_pub.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

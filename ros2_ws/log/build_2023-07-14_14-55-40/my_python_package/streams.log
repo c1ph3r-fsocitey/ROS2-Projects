@@ -1,0 +1,34 @@
+[0.742s] Invoking command in '/home/c1ph3r/ros2_ws/src/my_python_package': CMAKE_PREFIX_PATH=/home/c1ph3r/ros2_ws/install/my_robot_interfaces:/home/c1ph3r/ros2_ws/install/my_cpp_package PYTHONPATH=/home/c1ph3r/ros2_ws/build/my_python_package/prefix_override:/home/c1ph3r/ros2_ws/install/my_python_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_python_package build --build-base /home/c1ph3r/ros2_ws/build/my_python_package/build install --record /home/c1ph3r/ros2_ws/build/my_python_package/install.log --single-version-externally-managed
+[1.031s] running egg_info
+[1.032s] writing ../../build/my_python_package/my_python_package.egg-info/PKG-INFO
+[1.032s] writing dependency_links to ../../build/my_python_package/my_python_package.egg-info/dependency_links.txt
+[1.032s] writing entry points to ../../build/my_python_package/my_python_package.egg-info/entry_points.txt
+[1.033s] writing requirements to ../../build/my_python_package/my_python_package.egg-info/requires.txt
+[1.033s] writing top-level names to ../../build/my_python_package/my_python_package.egg-info/top_level.txt
+[1.035s] reading manifest file '../../build/my_python_package/my_python_package.egg-info/SOURCES.txt'
+[1.036s] writing manifest file '../../build/my_python_package/my_python_package.egg-info/SOURCES.txt'
+[1.036s] running build
+[1.036s] running build_py
+[1.037s] running install
+[1.038s] running install_lib
+[1.040s] running install_data
+[1.040s] running install_egg_info
+[1.042s] removing '/home/c1ph3r/ros2_ws/install/my_python_package/lib/python3.10/site-packages/my_python_package-0.0.0-py3.10.egg-info' (and everything under it)
+[1.042s] Copying ../../build/my_python_package/my_python_package.egg-info to /home/c1ph3r/ros2_ws/install/my_python_package/lib/python3.10/site-packages/my_python_package-0.0.0-py3.10.egg-info
+[1.043s] running install_scripts
+[1.064s] Installing LED_panel script to /home/c1ph3r/ros2_ws/install/my_python_package/lib/my_python_package
+[1.064s] Installing add_two_ints_client script to /home/c1ph3r/ros2_ws/install/my_python_package/lib/my_python_package
+[1.064s] Installing add_two_ints_client_oops script to /home/c1ph3r/ros2_ws/install/my_python_package/lib/my_python_package
+[1.064s] Installing add_two_ints_server script to /home/c1ph3r/ros2_ws/install/my_python_package/lib/my_python_package
+[1.064s] Installing basic_pub script to /home/c1ph3r/ros2_ws/install/my_python_package/lib/my_python_package
+[1.065s] Installing basic_sub script to /home/c1ph3r/ros2_ws/install/my_python_package/lib/my_python_package
+[1.065s] Installing battery_status script to /home/c1ph3r/ros2_ws/install/my_python_package/lib/my_python_package
+[1.065s] Installing hardware_status_publisher script to /home/c1ph3r/ros2_ws/install/my_python_package/lib/my_python_package
+[1.065s] Installing number_counter script to /home/c1ph3r/ros2_ws/install/my_python_package/lib/my_python_package
+[1.065s] Installing number_publisher script to /home/c1ph3r/ros2_ws/install/my_python_package/lib/my_python_package
+[1.065s] Installing py_node script to /home/c1ph3r/ros2_ws/install/my_python_package/lib/my_python_package
+[1.065s] Installing py_node_oop script to /home/c1ph3r/ros2_ws/install/my_python_package/lib/my_python_package
+[1.066s] Installing robot_news_station script to /home/c1ph3r/ros2_ws/install/my_python_package/lib/my_python_package
+[1.066s] Installing smartphone script to /home/c1ph3r/ros2_ws/install/my_python_package/lib/my_python_package
+[1.066s] writing list of installed files to '/home/c1ph3r/ros2_ws/build/my_python_package/install.log'
+[1.110s] Invoked command in '/home/c1ph3r/ros2_ws/src/my_python_package' returned '0': CMAKE_PREFIX_PATH=/home/c1ph3r/ros2_ws/install/my_robot_interfaces:/home/c1ph3r/ros2_ws/install/my_cpp_package PYTHONPATH=/home/c1ph3r/ros2_ws/build/my_python_package/prefix_override:/home/c1ph3r/ros2_ws/install/my_python_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_python_package build --build-base /home/c1ph3r/ros2_ws/build/my_python_package/build install --record /home/c1ph3r/ros2_ws/build/my_python_package/install.log --single-version-externally-managed
