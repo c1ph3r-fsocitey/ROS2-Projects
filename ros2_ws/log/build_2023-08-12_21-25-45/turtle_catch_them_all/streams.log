@@ -1,0 +1,43 @@
+[0.706s] Invoking command in '/home/c1ph3r/ros2_ws/src/turtle_catch_them_all': CMAKE_PREFIX_PATH=/home/c1ph3r/ros2_ws/install/my_robot_interfaces:/home/c1ph3r/ros2_ws/install/my_cpp_package PYTHONPATH=/home/c1ph3r/ros2_ws/build/turtle_catch_them_all/prefix_override:/home/c1ph3r/ros2_ws/install/turtle_catch_them_all/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtle_catch_them_all build --build-base /home/c1ph3r/ros2_ws/build/turtle_catch_them_all/build install --record /home/c1ph3r/ros2_ws/build/turtle_catch_them_all/install.log --single-version-externally-managed
+[0.971s] running egg_info
+[0.972s] creating ../../build/turtle_catch_them_all/turtle_catch_them_all.egg-info
+[0.972s] writing ../../build/turtle_catch_them_all/turtle_catch_them_all.egg-info/PKG-INFO
+[0.972s] writing dependency_links to ../../build/turtle_catch_them_all/turtle_catch_them_all.egg-info/dependency_links.txt
+[0.973s] writing entry points to ../../build/turtle_catch_them_all/turtle_catch_them_all.egg-info/entry_points.txt
+[0.973s] writing requirements to ../../build/turtle_catch_them_all/turtle_catch_them_all.egg-info/requires.txt
+[0.973s] writing top-level names to ../../build/turtle_catch_them_all/turtle_catch_them_all.egg-info/top_level.txt
+[0.973s] writing manifest file '../../build/turtle_catch_them_all/turtle_catch_them_all.egg-info/SOURCES.txt'
+[0.975s] reading manifest file '../../build/turtle_catch_them_all/turtle_catch_them_all.egg-info/SOURCES.txt'
+[0.975s] writing manifest file '../../build/turtle_catch_them_all/turtle_catch_them_all.egg-info/SOURCES.txt'
+[0.976s] running build
+[0.976s] running build_py
+[0.976s] creating /home/c1ph3r/ros2_ws/build/turtle_catch_them_all/build
+[0.976s] creating /home/c1ph3r/ros2_ws/build/turtle_catch_them_all/build/lib
+[0.976s] creating /home/c1ph3r/ros2_ws/build/turtle_catch_them_all/build/lib/turtle_catch_them_all
+[0.976s] copying turtle_catch_them_all/turtle_controller.py -> /home/c1ph3r/ros2_ws/build/turtle_catch_them_all/build/lib/turtle_catch_them_all
+[0.976s] copying turtle_catch_them_all/__init__.py -> /home/c1ph3r/ros2_ws/build/turtle_catch_them_all/build/lib/turtle_catch_them_all
+[0.976s] copying turtle_catch_them_all/turtle_spawner.py -> /home/c1ph3r/ros2_ws/build/turtle_catch_them_all/build/lib/turtle_catch_them_all
+[0.977s] running install
+[0.977s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.977s]   warnings.warn(
+[0.977s] running install_lib
+[0.978s] creating /home/c1ph3r/ros2_ws/install/turtle_catch_them_all/lib/python3.10/site-packages/turtle_catch_them_all
+[0.978s] copying /home/c1ph3r/ros2_ws/build/turtle_catch_them_all/build/lib/turtle_catch_them_all/turtle_controller.py -> /home/c1ph3r/ros2_ws/install/turtle_catch_them_all/lib/python3.10/site-packages/turtle_catch_them_all
+[0.978s] copying /home/c1ph3r/ros2_ws/build/turtle_catch_them_all/build/lib/turtle_catch_them_all/__init__.py -> /home/c1ph3r/ros2_ws/install/turtle_catch_them_all/lib/python3.10/site-packages/turtle_catch_them_all
+[0.978s] copying /home/c1ph3r/ros2_ws/build/turtle_catch_them_all/build/lib/turtle_catch_them_all/turtle_spawner.py -> /home/c1ph3r/ros2_ws/install/turtle_catch_them_all/lib/python3.10/site-packages/turtle_catch_them_all
+[0.979s] byte-compiling /home/c1ph3r/ros2_ws/install/turtle_catch_them_all/lib/python3.10/site-packages/turtle_catch_them_all/turtle_controller.py to turtle_controller.cpython-310.pyc
+[0.980s] byte-compiling /home/c1ph3r/ros2_ws/install/turtle_catch_them_all/lib/python3.10/site-packages/turtle_catch_them_all/__init__.py to __init__.cpython-310.pyc
+[0.980s] byte-compiling /home/c1ph3r/ros2_ws/install/turtle_catch_them_all/lib/python3.10/site-packages/turtle_catch_them_all/turtle_spawner.py to turtle_spawner.cpython-310.pyc
+[0.981s] running install_data
+[0.981s] creating /home/c1ph3r/ros2_ws/install/turtle_catch_them_all/share/ament_index
+[0.981s] creating /home/c1ph3r/ros2_ws/install/turtle_catch_them_all/share/ament_index/resource_index
+[0.982s] creating /home/c1ph3r/ros2_ws/install/turtle_catch_them_all/share/ament_index/resource_index/packages
+[0.982s] copying resource/turtle_catch_them_all -> /home/c1ph3r/ros2_ws/install/turtle_catch_them_all/share/ament_index/resource_index/packages
+[0.982s] copying package.xml -> /home/c1ph3r/ros2_ws/install/turtle_catch_them_all/share/turtle_catch_them_all
+[0.982s] running install_egg_info
+[0.983s] Copying ../../build/turtle_catch_them_all/turtle_catch_them_all.egg-info to /home/c1ph3r/ros2_ws/install/turtle_catch_them_all/lib/python3.10/site-packages/turtle_catch_them_all-0.0.0-py3.10.egg-info
+[0.984s] running install_scripts
+[1.006s] Installing turtle_controller script to /home/c1ph3r/ros2_ws/install/turtle_catch_them_all/lib/turtle_catch_them_all
+[1.007s] Installing turtle_spawner script to /home/c1ph3r/ros2_ws/install/turtle_catch_them_all/lib/turtle_catch_them_all
+[1.007s] writing list of installed files to '/home/c1ph3r/ros2_ws/build/turtle_catch_them_all/install.log'
+[1.044s] Invoked command in '/home/c1ph3r/ros2_ws/src/turtle_catch_them_all' returned '0': CMAKE_PREFIX_PATH=/home/c1ph3r/ros2_ws/install/my_robot_interfaces:/home/c1ph3r/ros2_ws/install/my_cpp_package PYTHONPATH=/home/c1ph3r/ros2_ws/build/turtle_catch_them_all/prefix_override:/home/c1ph3r/ros2_ws/install/turtle_catch_them_all/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtle_catch_them_all build --build-base /home/c1ph3r/ros2_ws/build/turtle_catch_them_all/build install --record /home/c1ph3r/ros2_ws/build/turtle_catch_them_all/install.log --single-version-externally-managed

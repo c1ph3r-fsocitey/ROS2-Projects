@@ -1,0 +1,100 @@
+[0.701s] Invoking command in '/home/c1ph3r/ros2_ws/src/my_python_package': AMENT_PREFIX_PATH=/home/c1ph3r/ros2_ws/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/c1ph3r/ros2_ws/install/my_robot_interfaces LD_LIBRARY_PATH=/home/c1ph3r/ros2_ws/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/c1ph3r/ros2_ws/build/my_python_package/prefix_override:/home/c1ph3r/ros2_ws/install/my_python_package/lib/python3.10/site-packages:/home/c1ph3r/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_python_package build --build-base /home/c1ph3r/ros2_ws/build/my_python_package/build install --record /home/c1ph3r/ros2_ws/build/my_python_package/install.log --single-version-externally-managed
+[0.967s] running egg_info
+[0.968s] creating ../../build/my_python_package/my_python_package.egg-info
+[0.968s] writing ../../build/my_python_package/my_python_package.egg-info/PKG-INFO
+[0.968s] writing dependency_links to ../../build/my_python_package/my_python_package.egg-info/dependency_links.txt
+[0.969s] writing entry points to ../../build/my_python_package/my_python_package.egg-info/entry_points.txt
+[0.969s] writing requirements to ../../build/my_python_package/my_python_package.egg-info/requires.txt
+[0.969s] writing top-level names to ../../build/my_python_package/my_python_package.egg-info/top_level.txt
+[0.969s] writing manifest file '../../build/my_python_package/my_python_package.egg-info/SOURCES.txt'
+[0.971s] reading manifest file '../../build/my_python_package/my_python_package.egg-info/SOURCES.txt'
+[0.972s] writing manifest file '../../build/my_python_package/my_python_package.egg-info/SOURCES.txt'
+[0.972s] running build
+[0.973s] running build_py
+[0.973s] creating /home/c1ph3r/ros2_ws/build/my_python_package/build
+[0.973s] creating /home/c1ph3r/ros2_ws/build/my_python_package/build/lib
+[0.974s] creating /home/c1ph3r/ros2_ws/build/my_python_package/build/lib/my_python_package
+[0.974s] copying my_python_package/battery_status.py -> /home/c1ph3r/ros2_ws/build/my_python_package/build/lib/my_python_package
+[0.974s] copying my_python_package/my_first_node.py -> /home/c1ph3r/ros2_ws/build/my_python_package/build/lib/my_python_package
+[0.974s] copying my_python_package/smartphone.py -> /home/c1ph3r/ros2_ws/build/my_python_package/build/lib/my_python_package
+[0.975s] copying my_python_package/face_recognition.py -> /home/c1ph3r/ros2_ws/build/my_python_package/build/lib/my_python_package
+[0.975s] copying my_python_package/robot_news_station.py -> /home/c1ph3r/ros2_ws/build/my_python_package/build/lib/my_python_package
+[0.975s] copying my_python_package/__init__.py -> /home/c1ph3r/ros2_ws/build/my_python_package/build/lib/my_python_package
+[0.975s] copying my_python_package/add_two_ints_client_oops.py -> /home/c1ph3r/ros2_ws/build/my_python_package/build/lib/my_python_package
+[0.976s] copying my_python_package/oops_template.py -> /home/c1ph3r/ros2_ws/build/my_python_package/build/lib/my_python_package
+[0.976s] copying my_python_package/LED_panel.py -> /home/c1ph3r/ros2_ws/build/my_python_package/build/lib/my_python_package
+[0.976s] copying my_python_package/hardware_status_publisher.py -> /home/c1ph3r/ros2_ws/build/my_python_package/build/lib/my_python_package
+[0.976s] copying my_python_package/number_counter.py -> /home/c1ph3r/ros2_ws/build/my_python_package/build/lib/my_python_package
+[0.977s] copying my_python_package/number_publisher.py -> /home/c1ph3r/ros2_ws/build/my_python_package/build/lib/my_python_package
+[0.977s] copying my_python_package/radha_krishna.py -> /home/c1ph3r/ros2_ws/build/my_python_package/build/lib/my_python_package
+[0.977s] copying my_python_package/add_two_ints_server.py -> /home/c1ph3r/ros2_ws/build/my_python_package/build/lib/my_python_package
+[0.977s] copying my_python_package/add_two_ints_client.py -> /home/c1ph3r/ros2_ws/build/my_python_package/build/lib/my_python_package
+[0.977s] copying my_python_package/my_first_node_oop.py -> /home/c1ph3r/ros2_ws/build/my_python_package/build/lib/my_python_package
+[0.978s] copying my_python_package/basic_sub.py -> /home/c1ph3r/ros2_ws/build/my_python_package/build/lib/my_python_package
+[0.978s] copying my_python_package/basic_pub.py -> /home/c1ph3r/ros2_ws/build/my_python_package/build/lib/my_python_package
+[0.978s] running install
+[0.979s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.979s]   warnings.warn(
+[0.979s] running install_lib
+[0.979s] creating /home/c1ph3r/ros2_ws/install/my_python_package/lib/python3.10/site-packages/my_python_package
+[0.980s] copying /home/c1ph3r/ros2_ws/build/my_python_package/build/lib/my_python_package/battery_status.py -> /home/c1ph3r/ros2_ws/install/my_python_package/lib/python3.10/site-packages/my_python_package
+[0.980s] copying /home/c1ph3r/ros2_ws/build/my_python_package/build/lib/my_python_package/my_first_node.py -> /home/c1ph3r/ros2_ws/install/my_python_package/lib/python3.10/site-packages/my_python_package
+[0.980s] copying /home/c1ph3r/ros2_ws/build/my_python_package/build/lib/my_python_package/smartphone.py -> /home/c1ph3r/ros2_ws/install/my_python_package/lib/python3.10/site-packages/my_python_package
+[0.980s] copying /home/c1ph3r/ros2_ws/build/my_python_package/build/lib/my_python_package/face_recognition.py -> /home/c1ph3r/ros2_ws/install/my_python_package/lib/python3.10/site-packages/my_python_package
+[0.981s] copying /home/c1ph3r/ros2_ws/build/my_python_package/build/lib/my_python_package/robot_news_station.py -> /home/c1ph3r/ros2_ws/install/my_python_package/lib/python3.10/site-packages/my_python_package
+[0.981s] copying /home/c1ph3r/ros2_ws/build/my_python_package/build/lib/my_python_package/__init__.py -> /home/c1ph3r/ros2_ws/install/my_python_package/lib/python3.10/site-packages/my_python_package
+[0.981s] copying /home/c1ph3r/ros2_ws/build/my_python_package/build/lib/my_python_package/add_two_ints_client_oops.py -> /home/c1ph3r/ros2_ws/install/my_python_package/lib/python3.10/site-packages/my_python_package
+[0.981s] copying /home/c1ph3r/ros2_ws/build/my_python_package/build/lib/my_python_package/oops_template.py -> /home/c1ph3r/ros2_ws/install/my_python_package/lib/python3.10/site-packages/my_python_package
+[0.982s] copying /home/c1ph3r/ros2_ws/build/my_python_package/build/lib/my_python_package/LED_panel.py -> /home/c1ph3r/ros2_ws/install/my_python_package/lib/python3.10/site-packages/my_python_package
+[0.982s] copying /home/c1ph3r/ros2_ws/build/my_python_package/build/lib/my_python_package/hardware_status_publisher.py -> /home/c1ph3r/ros2_ws/install/my_python_package/lib/python3.10/site-packages/my_python_package
+[0.982s] copying /home/c1ph3r/ros2_ws/build/my_python_package/build/lib/my_python_package/number_counter.py -> /home/c1ph3r/ros2_ws/install/my_python_package/lib/python3.10/site-packages/my_python_package
+[0.982s] copying /home/c1ph3r/ros2_ws/build/my_python_package/build/lib/my_python_package/number_publisher.py -> /home/c1ph3r/ros2_ws/install/my_python_package/lib/python3.10/site-packages/my_python_package
+[0.983s] copying /home/c1ph3r/ros2_ws/build/my_python_package/build/lib/my_python_package/radha_krishna.py -> /home/c1ph3r/ros2_ws/install/my_python_package/lib/python3.10/site-packages/my_python_package
+[0.983s] copying /home/c1ph3r/ros2_ws/build/my_python_package/build/lib/my_python_package/add_two_ints_server.py -> /home/c1ph3r/ros2_ws/install/my_python_package/lib/python3.10/site-packages/my_python_package
+[0.983s] copying /home/c1ph3r/ros2_ws/build/my_python_package/build/lib/my_python_package/add_two_ints_client.py -> /home/c1ph3r/ros2_ws/install/my_python_package/lib/python3.10/site-packages/my_python_package
+[0.983s] copying /home/c1ph3r/ros2_ws/build/my_python_package/build/lib/my_python_package/my_first_node_oop.py -> /home/c1ph3r/ros2_ws/install/my_python_package/lib/python3.10/site-packages/my_python_package
+[0.984s] copying /home/c1ph3r/ros2_ws/build/my_python_package/build/lib/my_python_package/basic_sub.py -> /home/c1ph3r/ros2_ws/install/my_python_package/lib/python3.10/site-packages/my_python_package
+[0.984s] copying /home/c1ph3r/ros2_ws/build/my_python_package/build/lib/my_python_package/basic_pub.py -> /home/c1ph3r/ros2_ws/install/my_python_package/lib/python3.10/site-packages/my_python_package
+[0.984s] byte-compiling /home/c1ph3r/ros2_ws/install/my_python_package/lib/python3.10/site-packages/my_python_package/battery_status.py to battery_status.cpython-310.pyc
+[0.984s] byte-compiling /home/c1ph3r/ros2_ws/install/my_python_package/lib/python3.10/site-packages/my_python_package/my_first_node.py to my_first_node.cpython-310.pyc
+[0.985s] byte-compiling /home/c1ph3r/ros2_ws/install/my_python_package/lib/python3.10/site-packages/my_python_package/smartphone.py to smartphone.cpython-310.pyc
+[0.985s] byte-compiling /home/c1ph3r/ros2_ws/install/my_python_package/lib/python3.10/site-packages/my_python_package/face_recognition.py to face_recognition.cpython-310.pyc
+[0.985s] byte-compiling /home/c1ph3r/ros2_ws/install/my_python_package/lib/python3.10/site-packages/my_python_package/robot_news_station.py to robot_news_station.cpython-310.pyc
+[0.985s] byte-compiling /home/c1ph3r/ros2_ws/install/my_python_package/lib/python3.10/site-packages/my_python_package/__init__.py to __init__.cpython-310.pyc
+[0.985s] byte-compiling /home/c1ph3r/ros2_ws/install/my_python_package/lib/python3.10/site-packages/my_python_package/add_two_ints_client_oops.py to add_two_ints_client_oops.cpython-310.pyc
+[0.986s] byte-compiling /home/c1ph3r/ros2_ws/install/my_python_package/lib/python3.10/site-packages/my_python_package/oops_template.py to oops_template.cpython-310.pyc
+[0.986s] byte-compiling /home/c1ph3r/ros2_ws/install/my_python_package/lib/python3.10/site-packages/my_python_package/LED_panel.py to LED_panel.cpython-310.pyc
+[0.986s] byte-compiling /home/c1ph3r/ros2_ws/install/my_python_package/lib/python3.10/site-packages/my_python_package/hardware_status_publisher.py to hardware_status_publisher.cpython-310.pyc
+[0.987s] byte-compiling /home/c1ph3r/ros2_ws/install/my_python_package/lib/python3.10/site-packages/my_python_package/number_counter.py to number_counter.cpython-310.pyc
+[0.987s] byte-compiling /home/c1ph3r/ros2_ws/install/my_python_package/lib/python3.10/site-packages/my_python_package/number_publisher.py to number_publisher.cpython-310.pyc
+[0.987s] byte-compiling /home/c1ph3r/ros2_ws/install/my_python_package/lib/python3.10/site-packages/my_python_package/radha_krishna.py to radha_krishna.cpython-310.pyc
+[0.987s] byte-compiling /home/c1ph3r/ros2_ws/install/my_python_package/lib/python3.10/site-packages/my_python_package/add_two_ints_server.py to add_two_ints_server.cpython-310.pyc
+[0.987s] byte-compiling /home/c1ph3r/ros2_ws/install/my_python_package/lib/python3.10/site-packages/my_python_package/add_two_ints_client.py to add_two_ints_client.cpython-310.pyc
+[0.988s] byte-compiling /home/c1ph3r/ros2_ws/install/my_python_package/lib/python3.10/site-packages/my_python_package/my_first_node_oop.py to my_first_node_oop.cpython-310.pyc
+[0.988s] byte-compiling /home/c1ph3r/ros2_ws/install/my_python_package/lib/python3.10/site-packages/my_python_package/basic_sub.py to basic_sub.cpython-310.pyc
+[0.988s] byte-compiling /home/c1ph3r/ros2_ws/install/my_python_package/lib/python3.10/site-packages/my_python_package/basic_pub.py to basic_pub.cpython-310.pyc
+[0.988s] running install_data
+[0.989s] creating /home/c1ph3r/ros2_ws/install/my_python_package/share/ament_index
+[0.989s] creating /home/c1ph3r/ros2_ws/install/my_python_package/share/ament_index/resource_index
+[0.989s] creating /home/c1ph3r/ros2_ws/install/my_python_package/share/ament_index/resource_index/packages
+[0.989s] copying resource/my_python_package -> /home/c1ph3r/ros2_ws/install/my_python_package/share/ament_index/resource_index/packages
+[0.989s] copying package.xml -> /home/c1ph3r/ros2_ws/install/my_python_package/share/my_python_package
+[0.990s] running install_egg_info
+[0.990s] Copying ../../build/my_python_package/my_python_package.egg-info to /home/c1ph3r/ros2_ws/install/my_python_package/lib/python3.10/site-packages/my_python_package-0.0.0-py3.10.egg-info
+[0.991s] running install_scripts
+[1.015s] Installing LED_panel script to /home/c1ph3r/ros2_ws/install/my_python_package/lib/my_python_package
+[1.016s] Installing add_two_ints_client script to /home/c1ph3r/ros2_ws/install/my_python_package/lib/my_python_package
+[1.016s] Installing add_two_ints_client_oops script to /home/c1ph3r/ros2_ws/install/my_python_package/lib/my_python_package
+[1.016s] Installing add_two_ints_server script to /home/c1ph3r/ros2_ws/install/my_python_package/lib/my_python_package
+[1.016s] Installing basic_pub script to /home/c1ph3r/ros2_ws/install/my_python_package/lib/my_python_package
+[1.017s] Installing basic_sub script to /home/c1ph3r/ros2_ws/install/my_python_package/lib/my_python_package
+[1.017s] Installing battery_status script to /home/c1ph3r/ros2_ws/install/my_python_package/lib/my_python_package
+[1.017s] Installing hardware_status_publisher script to /home/c1ph3r/ros2_ws/install/my_python_package/lib/my_python_package
+[1.017s] Installing number_counter script to /home/c1ph3r/ros2_ws/install/my_python_package/lib/my_python_package
+[1.017s] Installing number_publisher script to /home/c1ph3r/ros2_ws/install/my_python_package/lib/my_python_package
+[1.018s] Installing py_node script to /home/c1ph3r/ros2_ws/install/my_python_package/lib/my_python_package
+[1.018s] Installing py_node_oop script to /home/c1ph3r/ros2_ws/install/my_python_package/lib/my_python_package
+[1.018s] Installing robot_news_station script to /home/c1ph3r/ros2_ws/install/my_python_package/lib/my_python_package
+[1.018s] Installing smartphone script to /home/c1ph3r/ros2_ws/install/my_python_package/lib/my_python_package
+[1.018s] writing list of installed files to '/home/c1ph3r/ros2_ws/build/my_python_package/install.log'
+[1.061s] Invoked command in '/home/c1ph3r/ros2_ws/src/my_python_package' returned '0': AMENT_PREFIX_PATH=/home/c1ph3r/ros2_ws/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/c1ph3r/ros2_ws/install/my_robot_interfaces LD_LIBRARY_PATH=/home/c1ph3r/ros2_ws/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/c1ph3r/ros2_ws/build/my_python_package/prefix_override:/home/c1ph3r/ros2_ws/install/my_python_package/lib/python3.10/site-packages:/home/c1ph3r/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_python_package build --build-base /home/c1ph3r/ros2_ws/build/my_python_package/build install --record /home/c1ph3r/ros2_ws/build/my_python_package/install.log --single-version-externally-managed

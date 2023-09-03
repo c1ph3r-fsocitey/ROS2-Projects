@@ -1,0 +1,41 @@
+[0.014s] Invoking command in '/home/c1ph3r/ros2_ws/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/c1ph3r/ros2_ws/install/turtle_catch_them_all:/home/c1ph3r/ros2_ws/install/my_python_package:/opt/ros/humble /usr/bin/cmake /home/c1ph3r/ros2_ws/src/my_robot_description -DCMAKE_INSTALL_PREFIX=/home/c1ph3r/ros2_ws/install/my_robot_description
+[0.126s] -- The C compiler identification is GNU 11.4.0
+[0.227s] -- The CXX compiler identification is GNU 11.4.0
+[0.241s] -- Detecting C compiler ABI info
+[0.315s] -- Detecting C compiler ABI info - done
+[0.325s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.325s] -- Detecting C compile features
+[0.326s] -- Detecting C compile features - done
+[0.330s] -- Detecting CXX compiler ABI info
+[0.416s] -- Detecting CXX compiler ABI info - done
+[0.425s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.425s] -- Detecting CXX compile features
+[0.426s] -- Detecting CXX compile features - done
+[0.429s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.633s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.825s] -- Configuring done
+[0.828s] -- Generating done
+[0.830s] -- Build files have been written to: /home/c1ph3r/ros2_ws/build/my_robot_description
+[0.834s] Invoked command in '/home/c1ph3r/ros2_ws/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/c1ph3r/ros2_ws/install/turtle_catch_them_all:/home/c1ph3r/ros2_ws/install/my_python_package:/opt/ros/humble /usr/bin/cmake /home/c1ph3r/ros2_ws/src/my_robot_description -DCMAKE_INSTALL_PREFIX=/home/c1ph3r/ros2_ws/install/my_robot_description
+[0.836s] Invoking command in '/home/c1ph3r/ros2_ws/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/c1ph3r/ros2_ws/install/turtle_catch_them_all:/home/c1ph3r/ros2_ws/install/my_python_package:/opt/ros/humble /usr/bin/cmake --build /home/c1ph3r/ros2_ws/build/my_robot_description -- -j8 -l8
+[0.877s] Invoked command in '/home/c1ph3r/ros2_ws/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/c1ph3r/ros2_ws/install/turtle_catch_them_all:/home/c1ph3r/ros2_ws/install/my_python_package:/opt/ros/humble /usr/bin/cmake --build /home/c1ph3r/ros2_ws/build/my_robot_description -- -j8 -l8
+[0.935s] Invoking command in '/home/c1ph3r/ros2_ws/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/c1ph3r/ros2_ws/install/turtle_catch_them_all:/home/c1ph3r/ros2_ws/install/my_python_package:/opt/ros/humble /usr/bin/cmake --install /home/c1ph3r/ros2_ws/build/my_robot_description
+[0.943s] -- Install configuration: ""
+[0.943s] -- Installing: /home/c1ph3r/ros2_ws/install/my_robot_description/share/my_robot_description//urdf
+[0.943s] -- Installing: /home/c1ph3r/ros2_ws/install/my_robot_description/share/my_robot_description//urdf/my_robot.urdf
+[0.943s] -- Installing: /home/c1ph3r/ros2_ws/install/my_robot_description/share/ament_index/resource_index/package_run_dependencies/my_robot_description
+[0.943s] -- Installing: /home/c1ph3r/ros2_ws/install/my_robot_description/share/ament_index/resource_index/parent_prefix_path/my_robot_description
+[0.943s] -- Installing: /home/c1ph3r/ros2_ws/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.sh
+[0.943s] -- Installing: /home/c1ph3r/ros2_ws/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.dsv
+[0.944s] -- Installing: /home/c1ph3r/ros2_ws/install/my_robot_description/share/my_robot_description/environment/path.sh
+[0.944s] -- Installing: /home/c1ph3r/ros2_ws/install/my_robot_description/share/my_robot_description/environment/path.dsv
+[0.944s] -- Installing: /home/c1ph3r/ros2_ws/install/my_robot_description/share/my_robot_description/local_setup.bash
+[0.944s] -- Installing: /home/c1ph3r/ros2_ws/install/my_robot_description/share/my_robot_description/local_setup.sh
+[0.944s] -- Installing: /home/c1ph3r/ros2_ws/install/my_robot_description/share/my_robot_description/local_setup.zsh
+[0.944s] -- Installing: /home/c1ph3r/ros2_ws/install/my_robot_description/share/my_robot_description/local_setup.dsv
+[0.944s] -- Installing: /home/c1ph3r/ros2_ws/install/my_robot_description/share/my_robot_description/package.dsv
+[0.945s] -- Installing: /home/c1ph3r/ros2_ws/install/my_robot_description/share/ament_index/resource_index/packages/my_robot_description
+[0.945s] -- Installing: /home/c1ph3r/ros2_ws/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig.cmake
+[0.946s] -- Installing: /home/c1ph3r/ros2_ws/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig-version.cmake
+[0.946s] -- Installing: /home/c1ph3r/ros2_ws/install/my_robot_description/share/my_robot_description/package.xml
+[1.621s] Invoked command in '/home/c1ph3r/ros2_ws/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/c1ph3r/ros2_ws/install/turtle_catch_them_all:/home/c1ph3r/ros2_ws/install/my_python_package:/opt/ros/humble /usr/bin/cmake --install /home/c1ph3r/ros2_ws/build/my_robot_description

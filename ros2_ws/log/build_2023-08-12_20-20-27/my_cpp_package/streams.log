@@ -1,0 +1,123 @@
+[0.037s] Invoking command in '/home/c1ph3r/ros2_ws/build/my_cpp_package': AMENT_PREFIX_PATH=/home/c1ph3r/ros2_ws/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/c1ph3r/ros2_ws/install/my_robot_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/c1ph3r/ros2_ws/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/c1ph3r/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/c1ph3r/ros2_ws/src/my_cpp_package -DCMAKE_INSTALL_PREFIX=/home/c1ph3r/ros2_ws/install/my_cpp_package
+[0.113s] -- The C compiler identification is GNU 11.4.0
+[0.176s] -- The CXX compiler identification is GNU 11.4.0
+[0.184s] -- Detecting C compiler ABI info
+[0.257s] -- Detecting C compiler ABI info - done
+[0.266s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.266s] -- Detecting C compile features
+[0.267s] -- Detecting C compile features - done
+[0.270s] -- Detecting CXX compiler ABI info
+[0.357s] -- Detecting CXX compiler ABI info - done
+[0.366s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.366s] -- Detecting CXX compile features
+[0.367s] -- Detecting CXX compile features - done
+[0.369s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.581s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.713s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+[0.774s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.779s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.789s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.806s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.830s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.918s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.920s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.049s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.087s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.139s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.149s] -- Looking for pthread.h
+[1.243s] -- Looking for pthread.h - found
+[1.243s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.339s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.339s] -- Found Threads: TRUE  
+[1.547s] -- Found rclcpp_components: 16.0.5 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.632s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[1.814s] -- Found my_robot_interfaces: 0.0.0 (/home/c1ph3r/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake)
+[1.932s] -- Configuring done
+[1.977s] -- Generating done
+[1.980s] -- Build files have been written to: /home/c1ph3r/ros2_ws/build/my_cpp_package
+[1.991s] Invoked command in '/home/c1ph3r/ros2_ws/build/my_cpp_package' returned '0': AMENT_PREFIX_PATH=/home/c1ph3r/ros2_ws/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/c1ph3r/ros2_ws/install/my_robot_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/c1ph3r/ros2_ws/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/c1ph3r/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/c1ph3r/ros2_ws/src/my_cpp_package -DCMAKE_INSTALL_PREFIX=/home/c1ph3r/ros2_ws/install/my_cpp_package
+[1.994s] Invoking command in '/home/c1ph3r/ros2_ws/build/my_cpp_package': AMENT_PREFIX_PATH=/home/c1ph3r/ros2_ws/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/c1ph3r/ros2_ws/install/my_robot_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/c1ph3r/ros2_ws/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/c1ph3r/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/c1ph3r/ros2_ws/build/my_cpp_package -- -j8 -l8
+[2.078s] [ 15%] [32mBuilding CXX object CMakeFiles/smartphone.dir/src/smartphone.cpp.o[0m
+[2.078s] [ 15%] [32mBuilding CXX object CMakeFiles/robot_news_station.dir/src/robot_news_station.cpp.o[0m
+[2.078s] [ 15%] [32mBuilding CXX object CMakeFiles/basic_pub.dir/src/basic_pub.cpp.o[0m
+[2.078s] [ 15%] [32mBuilding CXX object CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.o[0m
+[2.080s] [ 19%] [32mBuilding CXX object CMakeFiles/add_two_ints_client_oops.dir/src/add_two_ints_client_oops.cpp.o[0m
+[2.082s] [ 23%] [32mBuilding CXX object CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o[0m
+[2.083s] [ 26%] [32mBuilding CXX object CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.o[0m
+[2.093s] [ 30%] [32mBuilding CXX object CMakeFiles/hardware_status_publisher.dir/src/HardwareStatus.cpp.o[0m
+[8.591s] [ 34%] [32m[1mLinking CXX executable cpp_node[0m
+[8.882s] [ 34%] Built target cpp_node
+[8.918s] [ 38%] [32mBuilding CXX object CMakeFiles/basic_sub.dir/src/basic_sub.cpp.o[0m
+[9.213s] [ 42%] [32m[1mLinking CXX executable add_two_ints_client[0m
+[9.323s] [ 46%] [32m[1mLinking CXX executable add_two_ints_client_oops[0m
+[9.497s] [ 50%] [32m[1mLinking CXX executable add_two_ints_server[0m
+[9.661s] [ 50%] Built target add_two_ints_client
+[9.718s] [ 53%] [32mBuilding CXX object CMakeFiles/LED_panel.dir/src/LED_panel.cpp.o[0m
+[9.817s] [ 53%] Built target add_two_ints_client_oops
+[9.860s] [ 57%] [32mBuilding CXX object CMakeFiles/battery.dir/src/battery.cpp.o[0m
+[9.927s] [ 57%] Built target add_two_ints_server
+[9.961s] [ 61%] [32mBuilding CXX object CMakeFiles/number_publisher.dir/src/number_publisher.cpp.o[0m
+[10.553s] [ 65%] [32m[1mLinking CXX executable robot_news_station[0m
+[10.735s] [ 69%] [32m[1mLinking CXX executable hardware_status_publisher[0m
+[10.868s] [ 73%] [32m[1mLinking CXX executable basic_pub[0m
+[11.102s] [ 73%] Built target robot_news_station
+[11.140s] [ 76%] [32mBuilding CXX object CMakeFiles/number_counter.dir/src/number_counter.cpp.o[0m
+[11.255s] [ 76%] Built target hardware_status_publisher
+[11.369s] [ 76%] Built target basic_pub
+[15.902s] [ 80%] [32m[1mLinking CXX executable battery[0m
+[16.172s] [ 80%] Built target battery
+[18.336s] [ 84%] [32m[1mLinking CXX executable number_publisher[0m
+[18.348s] [ 88%] [32m[1mLinking CXX executable smartphone[0m
+[18.831s] [ 88%] Built target number_publisher
+[19.037s] [ 88%] Built target smartphone
+[19.087s] [ 92%] [32m[1mLinking CXX executable LED_panel[0m
+[19.429s] [ 92%] Built target LED_panel
+[21.695s] [ 96%] [32m[1mLinking CXX executable basic_sub[0m
+[22.293s] [ 96%] Built target basic_sub
+[24.401s] [100%] [32m[1mLinking CXX executable number_counter[0m
+[24.944s] [100%] Built target number_counter
+[24.964s] Invoked command in '/home/c1ph3r/ros2_ws/build/my_cpp_package' returned '0': AMENT_PREFIX_PATH=/home/c1ph3r/ros2_ws/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/c1ph3r/ros2_ws/install/my_robot_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/c1ph3r/ros2_ws/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/c1ph3r/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/c1ph3r/ros2_ws/build/my_cpp_package -- -j8 -l8
+[25.030s] Invoking command in '/home/c1ph3r/ros2_ws/build/my_cpp_package': AMENT_PREFIX_PATH=/home/c1ph3r/ros2_ws/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/c1ph3r/ros2_ws/install/my_robot_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/c1ph3r/ros2_ws/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/c1ph3r/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/c1ph3r/ros2_ws/build/my_cpp_package
+[25.039s] -- Install configuration: ""
+[25.039s] -- Installing: /home/c1ph3r/ros2_ws/install/my_cpp_package/lib/my_cpp_package/cpp_node
+[25.039s] -- Set runtime path of "/home/c1ph3r/ros2_ws/install/my_cpp_package/lib/my_cpp_package/cpp_node" to ""
+[25.039s] -- Installing: /home/c1ph3r/ros2_ws/install/my_cpp_package/lib/my_cpp_package/robot_news_station
+[25.040s] -- Set runtime path of "/home/c1ph3r/ros2_ws/install/my_cpp_package/lib/my_cpp_package/robot_news_station" to ""
+[25.041s] -- Installing: /home/c1ph3r/ros2_ws/install/my_cpp_package/lib/my_cpp_package/smartphone
+[25.044s] -- Set runtime path of "/home/c1ph3r/ros2_ws/install/my_cpp_package/lib/my_cpp_package/smartphone" to ""
+[25.044s] -- Installing: /home/c1ph3r/ros2_ws/install/my_cpp_package/lib/my_cpp_package/add_two_ints_server
+[25.045s] -- Set runtime path of "/home/c1ph3r/ros2_ws/install/my_cpp_package/lib/my_cpp_package/add_two_ints_server" to ""
+[25.045s] -- Installing: /home/c1ph3r/ros2_ws/install/my_cpp_package/lib/my_cpp_package/add_two_ints_client
+[25.046s] -- Set runtime path of "/home/c1ph3r/ros2_ws/install/my_cpp_package/lib/my_cpp_package/add_two_ints_client" to ""
+[25.046s] -- Installing: /home/c1ph3r/ros2_ws/install/my_cpp_package/lib/my_cpp_package/add_two_ints_client_oops
+[25.047s] -- Set runtime path of "/home/c1ph3r/ros2_ws/install/my_cpp_package/lib/my_cpp_package/add_two_ints_client_oops" to ""
+[25.047s] -- Installing: /home/c1ph3r/ros2_ws/install/my_cpp_package/lib/my_cpp_package/hardware_status_publisher
+[25.048s] -- Set runtime path of "/home/c1ph3r/ros2_ws/install/my_cpp_package/lib/my_cpp_package/hardware_status_publisher" to ""
+[25.048s] -- Installing: /home/c1ph3r/ros2_ws/install/my_cpp_package/lib/my_cpp_package/basic_pub
+[25.049s] -- Set runtime path of "/home/c1ph3r/ros2_ws/install/my_cpp_package/lib/my_cpp_package/basic_pub" to ""
+[25.050s] -- Installing: /home/c1ph3r/ros2_ws/install/my_cpp_package/lib/my_cpp_package/basic_sub
+[25.053s] -- Set runtime path of "/home/c1ph3r/ros2_ws/install/my_cpp_package/lib/my_cpp_package/basic_sub" to ""
+[25.053s] -- Installing: /home/c1ph3r/ros2_ws/install/my_cpp_package/lib/my_cpp_package/LED_panel
+[25.055s] -- Set runtime path of "/home/c1ph3r/ros2_ws/install/my_cpp_package/lib/my_cpp_package/LED_panel" to ""
+[25.055s] -- Installing: /home/c1ph3r/ros2_ws/install/my_cpp_package/lib/my_cpp_package/battery
+[25.056s] -- Set runtime path of "/home/c1ph3r/ros2_ws/install/my_cpp_package/lib/my_cpp_package/battery" to ""
+[25.056s] -- Installing: /home/c1ph3r/ros2_ws/install/my_cpp_package/lib/my_cpp_package/number_counter
+[25.060s] -- Set runtime path of "/home/c1ph3r/ros2_ws/install/my_cpp_package/lib/my_cpp_package/number_counter" to ""
+[25.060s] -- Installing: /home/c1ph3r/ros2_ws/install/my_cpp_package/lib/my_cpp_package/number_publisher
+[25.061s] -- Set runtime path of "/home/c1ph3r/ros2_ws/install/my_cpp_package/lib/my_cpp_package/number_publisher" to ""
+[25.061s] -- Installing: /home/c1ph3r/ros2_ws/install/my_cpp_package/share/ament_index/resource_index/package_run_dependencies/my_cpp_package
+[25.061s] -- Installing: /home/c1ph3r/ros2_ws/install/my_cpp_package/share/ament_index/resource_index/parent_prefix_path/my_cpp_package
+[25.061s] -- Installing: /home/c1ph3r/ros2_ws/install/my_cpp_package/share/my_cpp_package/environment/ament_prefix_path.sh
+[25.061s] -- Installing: /home/c1ph3r/ros2_ws/install/my_cpp_package/share/my_cpp_package/environment/ament_prefix_path.dsv
+[25.062s] -- Installing: /home/c1ph3r/ros2_ws/install/my_cpp_package/share/my_cpp_package/environment/path.sh
+[25.062s] -- Installing: /home/c1ph3r/ros2_ws/install/my_cpp_package/share/my_cpp_package/environment/path.dsv
+[25.062s] -- Installing: /home/c1ph3r/ros2_ws/install/my_cpp_package/share/my_cpp_package/local_setup.bash
+[25.062s] -- Installing: /home/c1ph3r/ros2_ws/install/my_cpp_package/share/my_cpp_package/local_setup.sh
+[25.062s] -- Installing: /home/c1ph3r/ros2_ws/install/my_cpp_package/share/my_cpp_package/local_setup.zsh
+[25.063s] -- Installing: /home/c1ph3r/ros2_ws/install/my_cpp_package/share/my_cpp_package/local_setup.dsv
+[25.063s] -- Installing: /home/c1ph3r/ros2_ws/install/my_cpp_package/share/my_cpp_package/package.dsv
+[25.063s] -- Installing: /home/c1ph3r/ros2_ws/install/my_cpp_package/share/ament_index/resource_index/packages/my_cpp_package
+[25.063s] -- Installing: /home/c1ph3r/ros2_ws/install/my_cpp_package/share/my_cpp_package/cmake/my_cpp_packageConfig.cmake
+[25.063s] -- Installing: /home/c1ph3r/ros2_ws/install/my_cpp_package/share/my_cpp_package/cmake/my_cpp_packageConfig-version.cmake
+[25.063s] -- Installing: /home/c1ph3r/ros2_ws/install/my_cpp_package/share/my_cpp_package/package.xml
+[25.068s] Invoked command in '/home/c1ph3r/ros2_ws/build/my_cpp_package' returned '0': AMENT_PREFIX_PATH=/home/c1ph3r/ros2_ws/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/c1ph3r/ros2_ws/install/my_robot_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/c1ph3r/ros2_ws/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/c1ph3r/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/c1ph3r/ros2_ws/build/my_cpp_package

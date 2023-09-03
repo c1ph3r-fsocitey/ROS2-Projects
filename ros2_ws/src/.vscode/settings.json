@@ -81,5 +81,19 @@
         "typeindex": "cpp",
         "typeinfo": "cpp",
         "variant": "cpp"
-    }
+    },
+    "python.autoComplete.extraPaths": [
+        "/home/c1ph3r/ros2_ws/install/turtle_catch_them_all/lib/python3.10/site-packages",
+        "/home/c1ph3r/ros2_ws/install/my_python_package/lib/python3.10/site-packages",
+        "/home/c1ph3r/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/c1ph3r/ros2_ws/install/turtle_catch_them_all/lib/python3.10/site-packages",
+        "/home/c1ph3r/ros2_ws/install/my_python_package/lib/python3.10/site-packages",
+        "/home/c1ph3r/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
 }

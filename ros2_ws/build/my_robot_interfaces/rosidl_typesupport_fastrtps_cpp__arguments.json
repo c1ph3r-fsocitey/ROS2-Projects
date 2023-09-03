@@ -5,8 +5,11 @@
   "idl_tuples": [
     "/home/c1ph3r/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/HardwareStatus.idl",
     "/home/c1ph3r/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/LEDStatusArray.idl",
+    "/home/c1ph3r/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/Turtle.idl",
+    "/home/c1ph3r/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/TurtleArray.idl",
     "/home/c1ph3r/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/ComputeRectangleArea.idl",
-    "/home/c1ph3r/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/SetLED.idl"
+    "/home/c1ph3r/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/SetLED.idl",
+    "/home/c1ph3r/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/CatchTurtle.idl"
   ],
   "target_dependencies": [
     "/opt/ros/humble/lib/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp",
@@ -19,7 +22,10 @@
     "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/srv__type_support.cpp.em",
     "/home/c1ph3r/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/msg/HardwareStatus.idl",
     "/home/c1ph3r/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/msg/LEDStatusArray.idl",
+    "/home/c1ph3r/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/msg/Turtle.idl",
+    "/home/c1ph3r/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/msg/TurtleArray.idl",
     "/home/c1ph3r/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/srv/ComputeRectangleArea.idl",
-    "/home/c1ph3r/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/srv/SetLED.idl"
+    "/home/c1ph3r/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/srv/SetLED.idl",
+    "/home/c1ph3r/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/srv/CatchTurtle.idl"
   ]
 }

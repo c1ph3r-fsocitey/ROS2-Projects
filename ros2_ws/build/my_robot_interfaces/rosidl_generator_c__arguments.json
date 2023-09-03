@@ -5,8 +5,11 @@
   "idl_tuples": [
     "/home/c1ph3r/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/HardwareStatus.idl",
     "/home/c1ph3r/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/LEDStatusArray.idl",
+    "/home/c1ph3r/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/Turtle.idl",
+    "/home/c1ph3r/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/TurtleArray.idl",
     "/home/c1ph3r/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/ComputeRectangleArea.idl",
-    "/home/c1ph3r/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/SetLED.idl"
+    "/home/c1ph3r/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/SetLED.idl",
+    "/home/c1ph3r/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/CatchTurtle.idl"
   ],
   "target_dependencies": [
     "/opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c",
@@ -24,7 +27,10 @@
     "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
     "/home/c1ph3r/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/msg/HardwareStatus.idl",
     "/home/c1ph3r/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/msg/LEDStatusArray.idl",
+    "/home/c1ph3r/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/msg/Turtle.idl",
+    "/home/c1ph3r/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/msg/TurtleArray.idl",
     "/home/c1ph3r/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/srv/ComputeRectangleArea.idl",
-    "/home/c1ph3r/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/srv/SetLED.idl"
+    "/home/c1ph3r/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/srv/SetLED.idl",
+    "/home/c1ph3r/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/srv/CatchTurtle.idl"
   ]
 }
